@@ -1,0 +1,6 @@
+node_modules/
+odds_history.json
+correlation_log.json
+latest_alerts.json
+trade_log.json
+*.log
