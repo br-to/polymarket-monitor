@@ -1,5 +1,5 @@
 #!/bin/bash
-# Polymarket odds scan → ブルースに分析依頼
+# Polymarket odds scan → Discord通知
 set -e
 export PATH="/usr/bin:/home/toikobara_komlock_lab_com/.npm-global/bin:$PATH"
 export HOME="/home/toikobara_komlock_lab_com"
