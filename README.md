@@ -28,6 +28,13 @@ cd polymarket-monitor
 const CLI_PATH = "/usr/local/bin/polymarket";
 ```
 
+## 環境変数
+
+| 変数 | 説明 | 例 |
+|---|---|---|
+| `NOTIFY_CHANNEL` | Discord チャンネル ID（通知先） | `1234567890` |
+| `NOTIFY_ACCOUNT` | OpenClaw アカウント名（省略可） | `blues` |
+
 ## 使い方
 
 ### 手動実行
