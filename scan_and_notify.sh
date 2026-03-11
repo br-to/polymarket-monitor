@@ -12,6 +12,11 @@ echo "$OUTPUT"
 if echo "$OUTPUT" | grep -q "アラートを検知"; then
   ALERT_MSG=$(echo "$OUTPUT" | grep -A 200 "🚨")
 
+  # 関連資産の価格を記録
+  echo "correlation_tracker: recording prices..."
+  node "$SCRIPT_DIR/correlation_tracker.js" 2>&1
+  echo "correlation_tracker: done"
+
   # ブルースに分析依頼（1回だけ送信）
   openclaw message send \
     --channel discord \
