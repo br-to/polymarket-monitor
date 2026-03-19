@@ -1,47 +1,53 @@
 #!/usr/bin/env node
 /**
- * Polymarket オッズ変動シグナル検知 v2
- * config.jsonベースでカスタマイズ可能
- * --setup でセットアップウィザード起動
+ * Polymarket オッズ変動シグナル検知
+ * Polymarket CLIを使って市場データを取得し、急変動を検知する
  */
 
 const { execSync } = require("child_process");
 const fs = require("fs");
 const path = require("path");
 
-// --setup フラグ
-if (process.argv.includes("--setup")) {
-  require("./setup.js");
-  return;
-}
-
 const DATA_DIR = __dirname;
-const CONFIG_FILE = path.join(DATA_DIR, "config.json");
-const DEFAULT_CONFIG = path.join(DATA_DIR, "config.default.json");
 const HISTORY_FILE = path.join(DATA_DIR, "odds_history.json");
 const ALERT_FILE = path.join(DATA_DIR, "latest_alerts.json");
-const CLI_PATH = process.env.POLYMARKET_CLI_PATH || "/usr/local/bin/polymarket";
+const CLI_PATH = "/usr/local/bin/polymarket";
+const ALERT_THRESHOLD = 3.0; // 3%以上の変動でアラート
 
-// 設定読み込み
-function loadConfig() {
-  if (fs.existsSync(CONFIG_FILE)) {
-    return JSON.parse(fs.readFileSync(CONFIG_FILE, "utf-8"));
-  }
-  if (fs.existsSync(DEFAULT_CONFIG)) {
-    console.log("config.json が見つかりません。デフォルト設定を使用します。");
-    console.log("カスタマイズするには: node odds_scanner.js --setup\n");
-    return JSON.parse(fs.readFileSync(DEFAULT_CONFIG, "utf-8"));
-  }
-  console.error("設定ファイルが見つかりません。--setup で初期設定してください。");
-  process.exit(1);
-}
+const WATCH_QUERIES = [
+  // クリプト
+  "Bitcoin",
+  "Ethereum",
+  "Solana",
+  "crypto",
+  "stablecoin",
+  // AI
+  "OpenAI",
+  "Anthropic",
+  "NVIDIA",
+  "AI",
+  // 金融政策
+  "Fed rate",
+  "Bank of Japan",
+  "interest rate",
+  "inflation",
+  "recession",
+  // 地政学
+  "Trump tariff",
+  "trade war",
+  "Iran ceasefire",
+  "Iran war",
+  "Iran",
+  "Taiwan",
+  "China",
+  "Korea",
+  // 産業
+  "semiconductor",
+  "oil",
+  "Japan",
+];
 
-const config = loadConfig();
-const ALERT_THRESHOLD = config.threshold || 3.0;
-const MAX_RESULTS = config.maxResultsPerQuery || 3;
-const MIN_LIQUIDITY = config.minLiquidity || 1000;
-
-function searchMarkets(query, limit = MAX_RESULTS) {
+function searchMarkets(query, limit = 3) {
   try {
     const stdout = execSync(
       `${CLI_PATH} markets search "${query}" --limit ${limit} -o json`,
@@ -111,8 +117,7 @@ function scanMarkets() {
   const currentSnapshot = {};
   const seenIds = new Set();
 
-  for (const category of config.categories) {
-    const query = category.query;
+  for (const query of WATCH_QUERIES) {
     const markets = searchMarkets(query);
 
     for (const m of markets) {
@@ -126,7 +131,7 @@ function scanMarkets() {
       // 5分市場・低流動性は除外
       if (question.includes("Up or Down") || question.includes("Minutes"))
         continue;
-      if (liq < MIN_LIQUIDITY) continue;
+      if (liq < 1000) continue;
 
       let yesPct;
       try {
@@ -144,9 +149,7 @@ function scanMarkets() {
         yes_pct: Math.round(yesPct * 10) / 10,
         liquidity: liq,
         timestamp: now,
-        category: category.id,
         query,
-        tickers: category.tickers || [],
         end_date: m.endDate || "",
       };
 
@@ -161,11 +164,9 @@ function scanMarkets() {
             prev: prevPct,
             current: Math.round(yesPct * 10) / 10,
             delta: Math.round(delta * 10) / 10,
-            direction: delta > 0 ? "\u{1F4C8}" : "\u{1F4C9}",
+            direction: delta > 0 ? "📈" : "📉",
             liquidity: liq,
-            category: category.label,
             query,
-            tickers: category.tickers || [],
           });
         }
       }
@@ -182,7 +183,7 @@ function scanMarkets() {
 function formatAlerts(alerts) {
   if (!alerts.length) return null;
 
-  const lines = ["**\u{1F6A8} Polymarket \u30AA\u30C3\u30BA\u6025\u5909\u52D5\u691C\u77E5**", ""];
+  const lines = ["**🚨 Polymarket オッズ急変動検知**", ""];
 
   const sorted = [...alerts].sort(
     (a, b) => Math.abs(b.delta) - Math.abs(a.delta)
@@ -191,37 +192,33 @@ function formatAlerts(alerts) {
   for (const a of sorted) {
     lines.push(`${a.direction} **${a.question}**`);
     lines.push(
-      `  ${a.prev.toFixed(1)}% \u2192 ${a.current.toFixed(1)}% (${a.delta > 0 ? "+" : ""}${a.delta.toFixed(1)}%)`
+      `  ${a.prev.toFixed(1)}% → ${a.current.toFixed(1)}% (${a.delta > 0 ? "+" : ""}${a.delta.toFixed(1)}%)`
     );
-    lines.push(`  \u6D41\u52D5\u6027: $${a.liquidity.toLocaleString()} | \u30AB\u30C6\u30B4\u30EA: ${a.category}`);
-    if (a.tickers.length) {
-      lines.push(`  \u{1F4CA} \u95A2\u9023\u9298\u67C4: ${a.tickers.join(", ")}`);
-    }
+    lines.push(`  流動性: $${a.liquidity.toLocaleString()}`);
+    lines.push(`  🔍 要因調査キーワード: ${a.query}`);
     lines.push("");
   }
 
   lines.push(
-    "\u4E0A\u8A18\u306E\u5909\u52D5\u306B\u3064\u3044\u3066\u3001\u6700\u65B0\u30CB\u30E5\u30FC\u30B9\u3092\u691C\u7D22\u3057\u3066\u7406\u7531\u3092\u5206\u6790\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+    "上記の変動について、最新ニュースを検索して理由を分析してください。"
   );
-  lines.push("\u95A2\u9023\u3059\u308B\u682A/\u30AF\u30EA\u30D7\u30C8\u9298\u67C4\u304C\u3042\u308C\u3070\u4F75\u305B\u3066\u63D0\u793A\u3057\u3066\u304F\u3060\u3055\u3044\u3002");
+  lines.push("関連する株/クリプト銘柄があれば併せて提示してください。");
 
   return lines.join("\n");
 }
 
 // メイン
 const now = new Date().toISOString().slice(11, 16);
-console.log(`[${now} UTC] Polymarket odds scanner v2 starting...`);
-console.log(`\u30AB\u30C6\u30B4\u30EA: ${config.categories.map((c) => c.label).join(", ")}`);
-console.log(`\u95BE\u5024: ${ALERT_THRESHOLD}%\n`);
+console.log(`[${now} UTC] Polymarket odds scanner starting...`);
 
 const { alerts, marketCount } = scanMarkets();
-console.log(`\u76E3\u8996\u5E02\u5834\u6570: ${marketCount}`);
+console.log(`監視市場数: ${marketCount}`);
 
 if (alerts.length) {
   const msg = formatAlerts(alerts);
   console.log(msg);
   fs.writeFileSync(ALERT_FILE, JSON.stringify(alerts, null, 2));
-  console.log(`\n${alerts.length}\u4EF6\u306E\u30A2\u30E9\u30FC\u30C8\u3092\u691C\u77E5`);
+  console.log(`\n${alerts.length}件のアラートを検知`);
 } else {
-  console.log("\u5909\u52D5\u306A\u3057");
+  console.log("変動なし");
 }
