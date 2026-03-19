@@ -1,0 +1,71 @@
+{
+  "categories": [
+    {
+      "id": "fed-rate",
+      "query": "Fed rate",
+      "label": "FRB利下げ/利上げ",
+      "tickers": ["XLF", "VNQ", "TLT"]
+    },
+    {
+      "id": "oil-price",
+      "query": "oil price",
+      "label": "原油価格",
+      "tickers": ["XLE", "USO", "CVX"]
+    },
+    {
+      "id": "iran",
+      "query": "Iran",
+      "label": "イラン情勢",
+      "tickers": ["LMT", "RTX", "XLE"]
+    },
+    {
+      "id": "recession",
+      "query": "recession",
+      "label": "景気後退",
+      "tickers": ["SPY", "QQQ", "TLT"]
+    },
+    {
+      "id": "trump-tariff",
+      "query": "Trump tariff",
+      "label": "トランプ関税",
+      "tickers": ["EEM", "FXI", "SPY"]
+    },
+    {
+      "id": "china",
+      "query": "China",
+      "label": "中国情勢",
+      "tickers": ["FXI", "KWEB", "BABA"]
+    },
+    {
+      "id": "nvidia",
+      "query": "NVIDIA",
+      "label": "NVIDIA/半導体",
+      "tickers": ["NVDA", "SMH", "AMD"]
+    },
+    {
+      "id": "ai-regulation",
+      "query": "AI regulation",
+      "label": "AI規制",
+      "tickers": ["MSFT", "GOOGL", "META"]
+    },
+    {
+      "id": "israel",
+      "query": "Israel ceasefire",
+      "label": "イスラエル停戦",
+      "tickers": ["LMT", "RTX", "XLE"]
+    },
+    {
+      "id": "boj",
+      "query": "Bank of Japan",
+      "label": "日銀政策",
+      "tickers": ["EWJ", "FXY", "DXJ"]
+    }
+  ],
+  "threshold": 3.0,
+  "maxResultsPerQuery": 3,
+  "minLiquidity": 1000,
+  "notify": {
+    "discord": true,
+    "format": "detailed"
+  }
+}
