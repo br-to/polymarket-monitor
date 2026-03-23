@@ -17,6 +17,21 @@ if echo "$OUTPUT" | grep -q "アラートを検知"; then
   node "$SCRIPT_DIR/correlation_tracker.js" 2>&1
   echo "correlation_tracker: done"
 
+  # signal-bridge: シグナル記録（moomoo発注はオプション）
+  if [ -f "$SCRIPT_DIR/latest_alerts.json" ]; then
+    echo "signal-bridge: processing alerts..."
+    VENV_PYTHON="${SIGNAL_BRIDGE_PYTHON:-/home/toikobara_komlock_lab_com/moomoo-bridge/venv/bin/python3}"
+    if [ -x "$VENV_PYTHON" ]; then
+      $VENV_PYTHON -m signal_bridge.pipeline \
+        --alerts-file "$SCRIPT_DIR/latest_alerts.json" \
+        ${SIGNAL_BRIDGE_EXECUTE:+--execute} \
+        2>&1
+      echo "signal-bridge: done"
+    else
+      echo "signal-bridge: Python venv not found at $VENV_PYTHON, skipping"
+    fi
+  fi
+
   # 通知（環境変数で設定）
   if [ -n "$NOTIFY_CHANNEL" ]; then
     openclaw message send \
