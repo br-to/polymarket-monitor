@@ -92,19 +92,99 @@ def process_odds_change(
     }
 
 
-if __name__ == "__main__":
-    # テスト: イラン停戦確率が5分で10%急落
-    output = process_odds_change(
-        market="Will there be an Iran ceasefire by April 2026?",
-        direction="down",
-        magnitude=0.10,
-        timeframe_minutes=5,
-        execute=False,
-    )
+def process_alerts_file(alerts_path: str, execute: bool = False, dry_run: bool = True) -> list:
+    """
+    odds_scanner.jsが出力するlatest_alerts.jsonを読み込んで処理する
 
-    print(f"\n=== Signal Bridge Test ===")
-    print(f"Event ID: {output['event']['event_id']}")
-    print(f"Confidence: {output['event']['confidence']}")
-    print(f"Intents: {output['intents_count']}")
-    for r in output["results"]:
-        print(f"  {r['ticker']} {r['side']} ${r['size_usd']} -> {r['status']}")
+    Args:
+        alerts_path: latest_alerts.jsonのパス
+        execute: moomooで発注するか
+        dry_run: 発注のdry_run
+
+    Returns:
+        各アラートの処理結果リスト
+    """
+    import json
+
+    with open(alerts_path) as f:
+        alerts = json.load(f)
+
+    all_results = []
+    for alert in alerts:
+        direction = "up" if alert.get("delta", 0) > 0 else "down"
+        magnitude = abs(alert.get("delta", 0)) / 100  # %→小数
+
+        output = process_odds_change(
+            market=alert.get("question", ""),
+            direction=direction,
+            magnitude=magnitude,
+            timeframe_minutes=30,  # スキャン間隔がデフォルト30分
+            raw_data=alert,
+            execute=execute,
+            dry_run=dry_run,
+        )
+        all_results.append(output)
+
+    return all_results
+
+
+if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Signal Bridge")
+    parser.add_argument("--alerts-file", help="Path to latest_alerts.json from odds_scanner")
+    parser.add_argument("--market", help="Market description")
+    parser.add_argument("--direction", choices=["up", "down"], help="Direction")
+    parser.add_argument("--magnitude", type=float, help="Magnitude (0.0-1.0)")
+    parser.add_argument("--timeframe", type=int, default=30, help="Timeframe in minutes")
+    parser.add_argument("--execute", action="store_true", help="Execute on moomoo")
+    parser.add_argument("--dry-run", action="store_true", default=True, help="Dry run mode")
+    parser.add_argument("--live", action="store_true", help="Actually place orders (disables dry-run)")
+
+    args = parser.parse_args()
+
+    if args.live:
+        args.dry_run = False
+
+    if args.alerts_file:
+        # odds_scanner.jsのアラートファイルから処理
+        results = process_alerts_file(args.alerts_file, execute=args.execute, dry_run=args.dry_run)
+        print(f"\n=== Signal Bridge: {len(results)} alerts processed ===")
+        for r in results:
+            print(f"  Event: {r['event']['market'][:60]}")
+            print(f"  Intents: {r['intents_count']}")
+            for res in r["results"]:
+                print(f"    {res['ticker']} {res['side']} ${res['size_usd']} -> {res['status']}")
+
+    elif args.market and args.direction and args.magnitude:
+        # 手動入力
+        output = process_odds_change(
+            market=args.market,
+            direction=args.direction,
+            magnitude=args.magnitude,
+            timeframe_minutes=args.timeframe,
+            execute=args.execute,
+            dry_run=args.dry_run,
+        )
+        print(f"\n=== Signal Bridge ===")
+        print(f"Event ID: {output['event']['event_id']}")
+        print(f"Confidence: {output['event']['confidence']}")
+        print(f"Intents: {output['intents_count']}")
+        for r in output["results"]:
+            print(f"  {r['ticker']} {r['side']} ${r['size_usd']} -> {r['status']}")
+
+    else:
+        # デモ
+        output = process_odds_change(
+            market="Will there be an Iran ceasefire by April 2026?",
+            direction="down",
+            magnitude=0.10,
+            timeframe_minutes=5,
+            execute=False,
+        )
+        print(f"\n=== Signal Bridge Demo ===")
+        print(f"Event ID: {output['event']['event_id']}")
+        print(f"Confidence: {output['event']['confidence']}")
+        print(f"Intents: {output['intents_count']}")
+        for r in output["results"]:
+            print(f"  {r['ticker']} {r['side']} ${r['size_usd']} -> {r['status']}")

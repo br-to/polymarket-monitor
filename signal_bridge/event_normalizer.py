@@ -39,14 +39,16 @@ def normalize_event(
     if detected_at is None:
         detected_at = datetime.now(timezone.utc).isoformat()
 
-    # confidence: 短時間で大きく動いたほど高い
+    # confidence: 変動の大きさと速度で判定
     speed = magnitude / max(timeframe_minutes, 1)
-    if speed > 0.02:  # 1分あたり2%以上
+    if magnitude >= 0.10 or speed > 0.02:  # 10%以上 or 1分あたり2%以上
         confidence = 0.9
-    elif speed > 0.005:  # 1分あたり0.5%以上
+    elif magnitude >= 0.05 or speed > 0.005:  # 5%以上 or 1分あたり0.5%以上
         confidence = 0.7
+    elif magnitude >= 0.03:  # 3%以上
+        confidence = 0.5
     else:
-        confidence = 0.4
+        confidence = 0.3
 
     event_id = generate_event_id(market, direction, detected_at)
 
