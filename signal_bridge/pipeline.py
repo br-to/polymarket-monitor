@@ -7,6 +7,7 @@ from signal_bridge.event_normalizer import normalize_event
 from signal_bridge.strategy_engine import evaluate
 from signal_bridge.execution_adapter import MoomooExecutor
 from signal_bridge.signal_store import save_event, save_result
+from signal_bridge.performance_tracker import get_price
 
 
 def process_odds_change(
@@ -64,6 +65,9 @@ def process_odds_change(
             executor = None
 
     for intent in intents:
+        # エントリー時の株価を記録（Yahoo Finance経由、無料）
+        entry_price = get_price(intent["ticker"])
+
         if execute and executor:
             result = executor.execute(intent, dry_run=dry_run)
         else:
@@ -77,6 +81,13 @@ def process_odds_change(
                 "order_id": None,
                 "error": None,
             }
+
+        # エントリー価格とシグナル情報を付与
+        result["entry_price"] = entry_price
+        result["confidence"] = intent["confidence"]
+        result["reason"] = intent["reason"]
+        result["theme"] = intent["theme"]
+        result["recorded_at"] = intent["created_at"]
 
         result_path = save_result(result)
         results.append(result)
