@@ -59,6 +59,30 @@
       "query": "Bank of Japan",
       "label": "日銀政策",
       "tickers": ["EWJ", "FXY", "DXJ"]
+    },
+    {
+      "id": "bitcoin",
+      "query": "Bitcoin price",
+      "label": "BTC価格",
+      "tickers": ["COIN", "MSTR", "MARA"]
+    },
+    {
+      "id": "ethereum",
+      "query": "Ethereum",
+      "label": "ETH/DeFi",
+      "tickers": ["COIN", "MSTR"]
+    },
+    {
+      "id": "crypto-regulation",
+      "query": "crypto regulation",
+      "label": "クリプト規制",
+      "tickers": ["COIN", "MSTR", "MARA"]
+    },
+    {
+      "id": "stablecoin",
+      "query": "stablecoin",
+      "label": "ステーブルコイン",
+      "tickers": ["COIN"]
     }
   ],
   "threshold": 3.0,
