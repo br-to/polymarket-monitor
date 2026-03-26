@@ -1,0 +1,121 @@
+[
+  {
+    "question": "US x Iran ceasefire by April 30?",
+    "prev": 47.5,
+    "current": 44.5,
+    "delta": -3,
+    "direction": "📉",
+    "liquidity": 224298.951,
+    "category": "イラン情勢",
+    "query": "Iran",
+    "tickers": [
+      "LMT",
+      "RTX",
+      "XLE"
+    ]
+  },
+  {
+    "question": "Will Iran conduct a military action against Israel on March 23, 2026?",
+    "prev": 15,
+    "current": 10.5,
+    "delta": -4.5,
+    "direction": "📉",
+    "liquidity": 7825.1794,
+    "category": "イラン情勢",
+    "query": "Iran",
+    "tickers": [
+      "LMT",
+      "RTX",
+      "XLE"
+    ]
+  },
+  {
+    "question": "Will Iran conduct a military action against Israel on March 26, 2026?",
+    "prev": 80.5,
+    "current": 88.5,
+    "delta": 8,
+    "direction": "📈",
+    "liquidity": 7826.1614,
+    "category": "イラン情勢",
+    "query": "Iran",
+    "tickers": [
+      "LMT",
+      "RTX",
+      "XLE"
+    ]
+  },
+  {
+    "question": "Will the price of Bitcoin be between $66,000 and $68,000 on March 26?",
+    "prev": 2,
+    "current": 6.3,
+    "delta": 4.3,
+    "direction": "📈",
+    "liquidity": 19729.01063,
+    "category": "BTC価格",
+    "query": "Bitcoin price",
+    "tickers": [
+      "COIN",
+      "MSTR",
+      "MARA"
+    ]
+  },
+  {
+    "question": "Will the price of Bitcoin be between $68,000 and $70,000 on March 26?",
+    "prev": 22,
+    "current": 42.5,
+    "delta": 20.5,
+    "direction": "📈",
+    "liquidity": 19739.8186,
+    "category": "BTC価格",
+    "query": "Bitcoin price",
+    "tickers": [
+      "COIN",
+      "MSTR",
+      "MARA"
+    ]
+  },
+  {
+    "question": "Will the price of Bitcoin be between $70,000 and $72,000 on March 26?",
+    "prev": 54.5,
+    "current": 43,
+    "delta": -11.5,
+    "direction": "📉",
+    "liquidity": 29246.6263,
+    "category": "BTC価格",
+    "query": "Bitcoin price",
+    "tickers": [
+      "COIN",
+      "MSTR",
+      "MARA"
+    ]
+  },
+  {
+    "question": "Will the price of Bitcoin be between $72,000 and $74,000 on March 26?",
+    "prev": 19,
+    "current": 6.5,
+    "delta": -12.5,
+    "direction": "📉",
+    "liquidity": 22591.7137,
+    "category": "BTC価格",
+    "query": "Bitcoin price",
+    "tickers": [
+      "COIN",
+      "MSTR",
+      "MARA"
+    ]
+  },
+  {
+    "question": "Will Ethereum reach $2,400 in March?",
+    "prev": 19.5,
+    "current": 14.5,
+    "delta": -5,
+    "direction": "📉",
+    "liquidity": 87184.0115,
+    "category": "ETH/DeFi",
+    "query": "Ethereum",
+    "tickers": [
+      "COIN",
+      "MSTR"
+    ]
+  }
+]

@@ -1,0 +1,480 @@
+{
+  "events": [
+    {
+      "timestamp": "2026-03-26T00:00:08.684Z",
+      "market": "US x Iran ceasefire by March 31?",
+      "query": "Iran",
+      "odds_prev": 10.5,
+      "odds_current": 13.5,
+      "odds_delta": 3,
+      "direction": "📈",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T00:00:08.684Z",
+      "market": "US x Iran ceasefire by April 7?",
+      "query": "Iran",
+      "odds_prev": 18.5,
+      "odds_current": 26,
+      "odds_delta": 7.5,
+      "direction": "📈",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T00:00:08.684Z",
+      "market": "US forces enter Iran by March 31?",
+      "query": "Iran",
+      "odds_prev": 15.5,
+      "odds_current": 18.5,
+      "odds_delta": 3,
+      "direction": "📈",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T00:00:08.685Z",
+      "market": "US forces enter Iran by December 31?",
+      "query": "Iran",
+      "odds_prev": 65.5,
+      "odds_current": 68.5,
+      "odds_delta": 3,
+      "direction": "📈",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T00:00:08.685Z",
+      "market": "Will Iran conduct a military action against Israel on March 23, 2026?",
+      "query": "Iran",
+      "odds_prev": 11.5,
+      "odds_current": 15,
+      "odds_delta": 3.5,
+      "direction": "📈",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T00:00:08.685Z",
+      "market": "Will Iran conduct a military action against Israel on March 25, 2026?",
+      "query": "Iran",
+      "odds_prev": 95.7,
+      "odds_current": 87.6,
+      "odds_delta": -8.1,
+      "direction": "📉",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T00:00:08.685Z",
+      "market": "Will Iran conduct a military action against Israel on March 26, 2026?",
+      "query": "Iran",
+      "odds_prev": 84.5,
+      "odds_current": 81,
+      "odds_delta": -3.5,
+      "direction": "📉",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T00:00:08.685Z",
+      "market": "Will Iran conduct a military action against Israel on March 27, 2026?",
+      "query": "Iran",
+      "odds_prev": 82,
+      "odds_current": 78.5,
+      "odds_delta": -3.5,
+      "direction": "📉",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T00:00:08.685Z",
+      "market": "Will Iran conduct a military action against Israel on March 28, 2026?",
+      "query": "Iran",
+      "odds_prev": 81,
+      "odds_current": 76,
+      "odds_delta": -5,
+      "direction": "📉",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T00:00:08.685Z",
+      "market": "Will Iran conduct a military action against Israel on March 29, 2026?",
+      "query": "Iran",
+      "odds_prev": 79.5,
+      "odds_current": 67,
+      "odds_delta": -12.5,
+      "direction": "📉",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T00:00:08.686Z",
+      "market": "Will Iran conduct a military action against Israel on March 31, 2026?",
+      "query": "Iran",
+      "odds_prev": 77.5,
+      "odds_current": 68.5,
+      "odds_delta": -9,
+      "direction": "📉",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T00:00:08.686Z",
+      "market": "Will Trump visit China by April 30?",
+      "query": "China",
+      "odds_prev": 31.5,
+      "odds_current": 1.9,
+      "odds_delta": -29.6,
+      "direction": "📉",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T00:00:08.686Z",
+      "market": "Will Trump visit China by May 31?",
+      "query": "China",
+      "odds_prev": 62.5,
+      "odds_current": 83.5,
+      "odds_delta": 21,
+      "direction": "📈",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T00:00:08.686Z",
+      "market": "Will Trump visit China by June 30?",
+      "query": "China",
+      "odds_prev": 72.5,
+      "odds_current": 86,
+      "odds_delta": 13.5,
+      "direction": "📈",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T00:00:08.686Z",
+      "market": "No change in Bank of Japan’s interest rates after the April 2026 meeting?",
+      "query": "Bank of Japan",
+      "odds_prev": 37,
+      "odds_current": 42.5,
+      "odds_delta": 5.5,
+      "direction": "📈",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {
+        "EWJ": 84.75,
+        "FXY": 57.61
+      },
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": [
+          "EWJ",
+          "FXY"
+        ]
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T00:00:08.686Z",
+      "market": "Bank of Japan increases interest rates by 25 bps after the April 2026 meeting?",
+      "query": "Bank of Japan",
+      "odds_prev": 60.5,
+      "odds_current": 56.5,
+      "odds_delta": -4,
+      "direction": "📉",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {
+        "EWJ": 84.75,
+        "FXY": 57.61
+      },
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": [
+          "EWJ",
+          "FXY"
+        ]
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T03:00:08.073Z",
+      "market": "Will the price of Bitcoin be between $68,000 and $70,000 on March 26?",
+      "query": "Bitcoin price",
+      "odds_prev": 15.5,
+      "odds_current": 22,
+      "odds_delta": 6.5,
+      "direction": "📈",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T03:00:08.073Z",
+      "market": "Will the price of Bitcoin be between $70,000 and $72,000 on March 26?",
+      "query": "Bitcoin price",
+      "odds_prev": 51.5,
+      "odds_current": 54.5,
+      "odds_delta": 3,
+      "direction": "📈",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T03:00:08.073Z",
+      "market": "Will the price of Bitcoin be between $72,000 and $74,000 on March 26?",
+      "query": "Bitcoin price",
+      "odds_prev": 29,
+      "odds_current": 19,
+      "odds_delta": -10,
+      "direction": "📉",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T03:00:08.073Z",
+      "market": "Will Ethereum reach $2,400 in March?",
+      "query": "Ethereum",
+      "odds_prev": 22.5,
+      "odds_current": 19.5,
+      "odds_delta": -3,
+      "direction": "📉",
+      "crypto_prices_at_event": {
+        "ethereum": 2148.31
+      },
+      "stock_prices_at_event": {
+        "COIN": 181.1
+      },
+      "check_after_24h": {
+        "crypto_ids": [
+          "ethereum"
+        ],
+        "stock_symbols": [
+          "COIN"
+        ]
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T06:00:07.937Z",
+      "market": "US x Iran ceasefire by April 30?",
+      "query": "Iran",
+      "odds_prev": 47.5,
+      "odds_current": 44.5,
+      "odds_delta": -3,
+      "direction": "📉",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T06:00:07.937Z",
+      "market": "Will Iran conduct a military action against Israel on March 23, 2026?",
+      "query": "Iran",
+      "odds_prev": 15,
+      "odds_current": 10.5,
+      "odds_delta": -4.5,
+      "direction": "📉",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T06:00:07.938Z",
+      "market": "Will Iran conduct a military action against Israel on March 26, 2026?",
+      "query": "Iran",
+      "odds_prev": 80.5,
+      "odds_current": 88.5,
+      "odds_delta": 8,
+      "direction": "📈",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T06:00:07.938Z",
+      "market": "Will the price of Bitcoin be between $66,000 and $68,000 on March 26?",
+      "query": "Bitcoin price",
+      "odds_prev": 2,
+      "odds_current": 6.3,
+      "odds_delta": 4.3,
+      "direction": "📈",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T06:00:07.938Z",
+      "market": "Will the price of Bitcoin be between $68,000 and $70,000 on March 26?",
+      "query": "Bitcoin price",
+      "odds_prev": 22,
+      "odds_current": 42.5,
+      "odds_delta": 20.5,
+      "direction": "📈",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T06:00:07.938Z",
+      "market": "Will the price of Bitcoin be between $70,000 and $72,000 on March 26?",
+      "query": "Bitcoin price",
+      "odds_prev": 54.5,
+      "odds_current": 43,
+      "odds_delta": -11.5,
+      "direction": "📉",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T06:00:07.938Z",
+      "market": "Will the price of Bitcoin be between $72,000 and $74,000 on March 26?",
+      "query": "Bitcoin price",
+      "odds_prev": 19,
+      "odds_current": 6.5,
+      "odds_delta": -12.5,
+      "direction": "📉",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-26T06:00:07.938Z",
+      "market": "Will Ethereum reach $2,400 in March?",
+      "query": "Ethereum",
+      "odds_prev": 19.5,
+      "odds_current": 14.5,
+      "odds_delta": -5,
+      "direction": "📉",
+      "crypto_prices_at_event": {
+        "ethereum": 2117.07
+      },
+      "stock_prices_at_event": {
+        "COIN": 181.1
+      },
+      "check_after_24h": {
+        "crypto_ids": [
+          "ethereum"
+        ],
+        "stock_symbols": [
+          "COIN"
+        ]
+      },
+      "result": null
+    }
+  ]
+}

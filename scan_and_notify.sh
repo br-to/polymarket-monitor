@@ -22,6 +22,7 @@ if echo "$OUTPUT" | grep -q "アラートを検知"; then
     echo "signal-bridge: processing alerts..."
     VENV_PYTHON="${SIGNAL_BRIDGE_PYTHON:-/home/toikobara_komlock_lab_com/moomoo-bridge/venv/bin/python3}"
     if [ -x "$VENV_PYTHON" ]; then
+      cd "$SCRIPT_DIR"
       $VENV_PYTHON -m signal_bridge.pipeline \
         --alerts-file "$SCRIPT_DIR/latest_alerts.json" \
         ${SIGNAL_BRIDGE_EXECUTE:+--execute} \
