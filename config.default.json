@@ -64,7 +64,7 @@
       "id": "bitcoin",
       "query": "Bitcoin price",
       "label": "BTC価格",
-      "tickers": ["COIN", "MSTR", "MARA"]
+      "tickers": ["COIN", "MSTR"]
     },
     {
       "id": "ethereum",
@@ -76,7 +76,7 @@
       "id": "crypto-regulation",
       "query": "crypto regulation",
       "label": "クリプト規制",
-      "tickers": ["COIN", "MSTR", "MARA"]
+      "tickers": ["COIN", "MSTR"]
     },
     {
       "id": "stablecoin",
