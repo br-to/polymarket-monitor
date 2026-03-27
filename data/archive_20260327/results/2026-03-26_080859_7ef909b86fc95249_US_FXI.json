@@ -1,0 +1,15 @@
+{
+  "event_id": "7ef909b86fc95249",
+  "ticker": "US.FXI",
+  "side": "BUY",
+  "size_usd": 1000,
+  "dry_run": true,
+  "status": "recorded_only",
+  "order_id": null,
+  "error": null,
+  "entry_price": 36.0,
+  "confidence": 0.5,
+  "reason": "Will Trump visit China by May 31? down 3.0% in 30min",
+  "theme": "china_trade",
+  "recorded_at": "2026-03-26T08:08:59.117630+00:00"
+}

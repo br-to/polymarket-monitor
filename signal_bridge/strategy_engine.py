@@ -7,6 +7,9 @@ import json
 import os
 from datetime import datetime, timezone
 
+# クールダウン状態をファイルで永続化（cron再起動でもリセットされない）
+COOLDOWN_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "cooldown_state.json")
+
 # 市場テーマ → 関連銘柄の固定マッピング
 MARKET_TICKER_MAP = {
     "oil": {
@@ -30,7 +33,7 @@ MARKET_TICKER_MAP = {
         "keywords": ["china", "trade war", "tariff", "beijing"],
     },
     "crypto": {
-        "tickers": ["US.COIN", "US.MSTR", "US.MARA"],
+        "tickers": ["US.COIN", "US.MSTR"],
         "keywords": ["bitcoin", "crypto", "btc", "ethereum"],
     },
 }
@@ -44,8 +47,23 @@ SAFETY_CONFIG = {
     "min_confidence": 0.5,       # この信頼度以下はスキップ
 }
 
-# クールダウン管理（テーマ → 最後の発注時刻）
-_cooldown_state = {}
+# クールダウン管理（ファイルベースで永続化）
+def _load_cooldown() -> dict:
+    """クールダウン状態をファイルから読み込む"""
+    try:
+        os.makedirs(os.path.dirname(COOLDOWN_FILE), exist_ok=True)
+        with open(COOLDOWN_FILE) as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def _save_cooldown(state: dict):
+    """クールダウン状態をファイルに保存"""
+    os.makedirs(os.path.dirname(COOLDOWN_FILE), exist_ok=True)
+    with open(COOLDOWN_FILE, "w") as f:
+        json.dump(state, f, indent=2)
+
 
 # 処理済みイベントID
 _processed_events = set()
@@ -65,9 +83,10 @@ def _match_theme(market: str) -> list:
 
 def _check_cooldown(theme: str) -> bool:
     """クールダウン中かチェック"""
-    if theme not in _cooldown_state:
+    state = _load_cooldown()
+    if theme not in state:
         return False
-    last_time = _cooldown_state[theme]
+    last_time = datetime.fromisoformat(state[theme])
     now = datetime.now(timezone.utc)
     elapsed = (now - last_time).total_seconds() / 60
     return elapsed < SAFETY_CONFIG["cooldown_minutes"]
@@ -75,7 +94,9 @@ def _check_cooldown(theme: str) -> bool:
 
 def _record_cooldown(theme: str):
     """クールダウンを記録"""
-    _cooldown_state[theme] = datetime.now(timezone.utc)
+    state = _load_cooldown()
+    state[theme] = datetime.now(timezone.utc).isoformat()
+    _save_cooldown(state)
 
 
 def evaluate(event: dict) -> list:

@@ -1,0 +1,15 @@
+{
+  "event_id": "5b43282d8b5ab4ef",
+  "ticker": "US.LMT",
+  "side": "BUY",
+  "size_usd": 1000,
+  "dry_run": true,
+  "status": "recorded_only",
+  "order_id": null,
+  "error": null,
+  "entry_price": 627.3300170898438,
+  "confidence": 0.5,
+  "reason": "US x Iran ceasefire by April 30? down 3.0% in 30min",
+  "theme": "iran_conflict",
+  "recorded_at": "2026-03-27T01:00:08.106610+00:00"
+}

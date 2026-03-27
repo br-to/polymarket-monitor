@@ -1,0 +1,15 @@
+{
+  "event_id": "7e6d02651929b212",
+  "ticker": "US.OXY",
+  "side": "SELL",
+  "size_usd": 1000,
+  "dry_run": true,
+  "status": "recorded_only",
+  "order_id": null,
+  "error": null,
+  "entry_price": 61.849998474121094,
+  "confidence": 0.5,
+  "reason": "US forces enter Iran by March 31? up 3.0% in 30min",
+  "theme": "oil",
+  "recorded_at": "2026-03-26T12:00:09.295389+00:00"
+}

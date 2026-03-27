@@ -1,0 +1,15 @@
+{
+  "event_id": "ac9e17d10648a3d3",
+  "ticker": "US.USO",
+  "side": "SELL",
+  "size_usd": 1000,
+  "dry_run": true,
+  "status": "recorded_only",
+  "order_id": null,
+  "error": null,
+  "entry_price": 117.26000213623047,
+  "confidence": 0.5,
+  "reason": "US x Iran ceasefire by April 30? up 3.5% in 30min",
+  "theme": "oil",
+  "recorded_at": "2026-03-26T21:00:08.238754+00:00"
+}

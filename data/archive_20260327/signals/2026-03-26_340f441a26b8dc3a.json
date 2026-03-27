@@ -1,0 +1,25 @@
+{
+  "event_id": "340f441a26b8dc3a",
+  "event_type": "odds_change",
+  "market": "Will the price of Bitcoin be between $70,000 and $72,000 on March 26?",
+  "direction": "up",
+  "magnitude": 0.04,
+  "timeframe_minutes": 30,
+  "confidence": 0.5,
+  "detected_at": "2026-03-26T08:09:00.885901+00:00",
+  "raw_data": {
+    "question": "Will the price of Bitcoin be between $70,000 and $72,000 on March 26?",
+    "prev": 43,
+    "current": 47,
+    "delta": 4,
+    "direction": "\ud83d\udcc8",
+    "liquidity": 25444.3069,
+    "category": "BTC\u4fa1\u683c",
+    "query": "Bitcoin price",
+    "tickers": [
+      "COIN",
+      "MSTR",
+      "MARA"
+    ]
+  }
+}

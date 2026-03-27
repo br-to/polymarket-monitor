@@ -1,0 +1,25 @@
+{
+  "event_id": "5b43282d8b5ab4ef",
+  "event_type": "odds_change",
+  "market": "US x Iran ceasefire by April 30?",
+  "direction": "down",
+  "magnitude": 0.03,
+  "timeframe_minutes": 30,
+  "confidence": 0.5,
+  "detected_at": "2026-03-27T01:00:08.105578+00:00",
+  "raw_data": {
+    "question": "US x Iran ceasefire by April 30?",
+    "prev": 45.5,
+    "current": 42.5,
+    "delta": -3,
+    "direction": "\ud83d\udcc9",
+    "liquidity": 162802.4272,
+    "category": "\u30a4\u30e9\u30f3\u60c5\u52e2",
+    "query": "Iran",
+    "tickers": [
+      "LMT",
+      "RTX",
+      "XLE"
+    ]
+  }
+}

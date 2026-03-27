@@ -1,0 +1,25 @@
+{
+  "event_id": "c89053ec83532d69",
+  "event_type": "odds_change",
+  "market": "Will 3 Fed rate cuts happen in 2026?",
+  "direction": "down",
+  "magnitude": 0.05,
+  "timeframe_minutes": 30,
+  "confidence": 0.7,
+  "detected_at": "2026-03-26T12:00:09.294474+00:00",
+  "raw_data": {
+    "question": "Will 3 Fed rate cuts happen in 2026?",
+    "prev": 13.5,
+    "current": 8.5,
+    "delta": -5,
+    "direction": "\ud83d\udcc9",
+    "liquidity": 92353.1299,
+    "category": "FRB\u5229\u4e0b\u3052/\u5229\u4e0a\u3052",
+    "query": "Fed rate",
+    "tickers": [
+      "XLF",
+      "VNQ",
+      "TLT"
+    ]
+  }
+}

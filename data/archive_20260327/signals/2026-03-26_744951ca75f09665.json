@@ -1,0 +1,25 @@
+{
+  "event_id": "744951ca75f09665",
+  "event_type": "odds_change",
+  "market": "US forces enter Iran by March 31?",
+  "direction": "up",
+  "magnitude": 0.045,
+  "timeframe_minutes": 30,
+  "confidence": 0.5,
+  "detected_at": "2026-03-26T22:00:08.927879+00:00",
+  "raw_data": {
+    "question": "US forces enter Iran by March 31?",
+    "prev": 13.5,
+    "current": 18,
+    "delta": 4.5,
+    "direction": "\ud83d\udcc8",
+    "liquidity": 225177.4701,
+    "category": "\u30a4\u30e9\u30f3\u60c5\u52e2",
+    "query": "Iran",
+    "tickers": [
+      "LMT",
+      "RTX",
+      "XLE"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "event_id": "27560bace8a3889b",
+  "ticker": "US.OXY",
+  "side": "BUY",
+  "size_usd": 1000,
+  "dry_run": true,
+  "status": "recorded_only",
+  "order_id": null,
+  "error": null,
+  "entry_price": 64.36000061035156,
+  "confidence": 0.5,
+  "reason": "US x Iran ceasefire by April 7? down 3.0% in 30min",
+  "theme": "oil",
+  "recorded_at": "2026-03-27T02:00:08.261861+00:00"
+}

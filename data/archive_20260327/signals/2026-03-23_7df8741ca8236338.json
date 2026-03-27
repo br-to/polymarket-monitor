@@ -1,0 +1,21 @@
+{
+  "event_id": "7df8741ca8236338",
+  "event_type": "odds_change",
+  "market": "Will Iran agree to a ceasefire by April?",
+  "direction": "down",
+  "magnitude": 0.1,
+  "timeframe_minutes": 30,
+  "confidence": 0.4,
+  "detected_at": "2026-03-23T15:53:33.727162+00:00",
+  "raw_data": {
+    "question": "Will Iran agree to a ceasefire by April?",
+    "prev": 45.0,
+    "current": 35.0,
+    "delta": -10.0,
+    "category": "\u5730\u653f\u5b66",
+    "tickers": [
+      "XLE",
+      "USO"
+    ]
+  }
+}

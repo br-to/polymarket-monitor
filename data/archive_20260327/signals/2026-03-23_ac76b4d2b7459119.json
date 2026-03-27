@@ -1,0 +1,21 @@
+{
+  "event_id": "ac76b4d2b7459119",
+  "event_type": "odds_change",
+  "market": "Will TSMC stock reach $200 by June?",
+  "direction": "up",
+  "magnitude": 0.08,
+  "timeframe_minutes": 30,
+  "confidence": 0.7,
+  "detected_at": "2026-03-23T15:53:59.990753+00:00",
+  "raw_data": {
+    "question": "Will TSMC stock reach $200 by June?",
+    "prev": 60.0,
+    "current": 68.0,
+    "delta": 8.0,
+    "category": "\u534a\u5c0e\u4f53",
+    "tickers": [
+      "NVDA",
+      "TSM"
+    ]
+  }
+}

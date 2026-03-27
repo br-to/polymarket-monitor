@@ -1,0 +1,24 @@
+{
+  "event_id": "ce758cb5d2562299",
+  "event_type": "odds_change",
+  "market": "Will the price of Ethereum be above $2,100 on March 26?",
+  "direction": "down",
+  "magnitude": 0.099,
+  "timeframe_minutes": 30,
+  "confidence": 0.7,
+  "detected_at": "2026-03-26T17:00:13.201850+00:00",
+  "raw_data": {
+    "question": "Will the price of Ethereum be above $2,100 on March 26?",
+    "prev": 10,
+    "current": 0.1,
+    "delta": -9.9,
+    "direction": "\ud83d\udcc9",
+    "liquidity": 175374.04154,
+    "category": "ETH/DeFi",
+    "query": "Ethereum",
+    "tickers": [
+      "COIN",
+      "MSTR"
+    ]
+  }
+}

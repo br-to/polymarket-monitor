@@ -1,0 +1,15 @@
+{
+  "event_id": "be3dcec1798d1cab",
+  "ticker": "US.COIN",
+  "side": "SELL",
+  "size_usd": 1000,
+  "dry_run": true,
+  "status": "recorded_only",
+  "order_id": null,
+  "error": null,
+  "entry_price": 173.69000244140625,
+  "confidence": 0.7,
+  "reason": "Will the price of Bitcoin be between $66,000 and $68,000 on March 27? up 6.0% in 30min",
+  "theme": "crypto",
+  "recorded_at": "2026-03-26T18:00:11.718485+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "event_id": "745a240166d85f1c",
+  "ticker": "US.RTX",
+  "side": "SELL",
+  "size_usd": 1000,
+  "dry_run": true,
+  "status": "recorded_only",
+  "order_id": null,
+  "error": null,
+  "entry_price": 195.0,
+  "confidence": 0.7,
+  "reason": "Will Iran conduct a military action against Israel on March 26, 2026? up 5.2% in 30min",
+  "theme": "iran_conflict",
+  "recorded_at": "2026-03-26T08:08:56.037311+00:00"
+}

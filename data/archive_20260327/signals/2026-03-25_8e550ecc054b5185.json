@@ -1,0 +1,11 @@
+{
+  "event_id": "8e550ecc054b5185",
+  "event_type": "odds_change",
+  "market": "Will there be an Iran ceasefire by April 2026?",
+  "direction": "down",
+  "magnitude": 0.1,
+  "timeframe_minutes": 5,
+  "confidence": 0.9,
+  "detected_at": "2026-03-25T15:58:56.619055+00:00",
+  "raw_data": null
+}

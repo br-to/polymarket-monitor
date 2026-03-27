@@ -1,0 +1,24 @@
+{
+  "event_id": "45f260deebddfc38",
+  "event_type": "odds_change",
+  "market": "Will the price of Ethereum be between $1,900 and $2,000 on March 26?",
+  "direction": "up",
+  "magnitude": 0.046,
+  "timeframe_minutes": 30,
+  "confidence": 0.5,
+  "detected_at": "2026-03-26T12:00:13.933997+00:00",
+  "raw_data": {
+    "question": "Will the price of Ethereum be between $1,900 and $2,000 on March 26?",
+    "prev": 0.9,
+    "current": 5.6,
+    "delta": 4.6,
+    "direction": "\ud83d\udcc8",
+    "liquidity": 13902.19785,
+    "category": "ETH/DeFi",
+    "query": "Ethereum",
+    "tickers": [
+      "COIN",
+      "MSTR"
+    ]
+  }
+}

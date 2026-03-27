@@ -1,0 +1,10 @@
+{
+  "event_id": "ac76b4d2b7459119",
+  "ticker": "US.SOXX",
+  "side": "SELL",
+  "size_usd": 1000,
+  "dry_run": true,
+  "status": "recorded_only",
+  "order_id": null,
+  "error": null
+}

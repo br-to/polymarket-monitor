@@ -1,0 +1,10 @@
+{
+  "event_id": "7d3865ccba85f7f9",
+  "ticker": "US.OXY",
+  "side": "BUY",
+  "size_usd": 1000,
+  "dry_run": true,
+  "status": "recorded_only",
+  "order_id": null,
+  "error": null
+}

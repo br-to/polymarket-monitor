@@ -1,0 +1,15 @@
+{
+  "event_id": "8e550ecc054b5185",
+  "ticker": "US.LMT",
+  "side": "BUY",
+  "size_usd": 1000,
+  "dry_run": true,
+  "status": "recorded_only",
+  "order_id": null,
+  "error": null,
+  "entry_price": 623.9099731445312,
+  "confidence": 0.9,
+  "reason": "Will there be an Iran ceasefire by April 2026? down 10.0% in 5min",
+  "theme": "iran_conflict",
+  "recorded_at": "2026-03-25T15:58:56.619614+00:00"
+}

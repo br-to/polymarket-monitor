@@ -1,0 +1,15 @@
+{
+  "event_id": "1300c7cbeac14d6e",
+  "ticker": "US.USO",
+  "side": "BUY",
+  "size_usd": 1000,
+  "dry_run": true,
+  "status": "recorded_only",
+  "order_id": null,
+  "error": null,
+  "entry_price": 118.74500274658203,
+  "confidence": 0.5,
+  "reason": "US forces enter Iran by March 31? down 4.0% in 30min",
+  "theme": "oil",
+  "recorded_at": "2026-03-26T18:00:08.693241+00:00"
+}

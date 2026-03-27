@@ -1,0 +1,25 @@
+{
+  "event_id": "75660207d51c4448",
+  "event_type": "odds_change",
+  "market": "Will Iran conduct a military action against Israel on March 23, 2026?",
+  "direction": "up",
+  "magnitude": 0.06,
+  "timeframe_minutes": 30,
+  "confidence": 0.7,
+  "detected_at": "2026-03-26T12:00:12.859178+00:00",
+  "raw_data": {
+    "question": "Will Iran conduct a military action against Israel on March 23, 2026?",
+    "prev": 11.5,
+    "current": 17.5,
+    "delta": 6,
+    "direction": "\ud83d\udcc8",
+    "liquidity": 6688.8811,
+    "category": "\u30a4\u30e9\u30f3\u60c5\u52e2",
+    "query": "Iran",
+    "tickers": [
+      "LMT",
+      "RTX",
+      "XLE"
+    ]
+  }
+}

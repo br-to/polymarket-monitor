@@ -3,11 +3,28 @@ Signal Bridge - メインパイプライン
 polymarket-monitorの急変 → シグナル記録 → (オプション) moomoo発注
 """
 
+from datetime import datetime, timezone
 from signal_bridge.event_normalizer import normalize_event
 from signal_bridge.strategy_engine import evaluate
 from signal_bridge.execution_adapter import MoomooExecutor
 from signal_bridge.signal_store import save_event, save_result
 from signal_bridge.performance_tracker import get_price
+
+
+def _is_us_market_open() -> bool:
+    """米国株式市場が開いているか（簡易チェック）
+    NYSE/NASDAQ: 月〜金 9:30-16:00 ET = 13:30-20:00 UTC (EST)
+    サマータイム中: 13:30-20:00 UTC → 12:30-19:00 UTC (EDT)
+    祝日は考慮しない（簡易版）
+    """
+    now = datetime.now(timezone.utc)
+    # 土日は閉場
+    if now.weekday() >= 5:
+        return False
+    # UTC 13:30-20:00 (冬時間) / 12:30-19:00 (夏時間)
+    # 広めに取って 12:30-20:00 UTC でカバー
+    hour_min = now.hour * 60 + now.minute
+    return 750 <= hour_min <= 1200  # 12:30 = 750分, 20:00 = 1200分
 
 
 def process_odds_change(
@@ -49,10 +66,20 @@ def process_odds_change(
     # 2. イベントを保存
     event_path = save_event(event)
 
-    # 3. 戦略エンジンで評価
+    # 3. 米国市場の営業時間チェック
+    if not _is_us_market_open():
+        return {
+            "event": event,
+            "event_path": event_path,
+            "intents_count": 0,
+            "results": [],
+            "skipped": "US market closed",
+        }
+
+    # 4. 戦略エンジンで評価
     intents = evaluate(event)
 
-    # 4. 実行
+    # 5. 実行
     results = []
     executor = None
 

@@ -1,0 +1,25 @@
+{
+  "event_id": "e9095335144f2670",
+  "event_type": "odds_change",
+  "market": "Fed rate cut by December 2026 meeting?",
+  "direction": "down",
+  "magnitude": 0.035,
+  "timeframe_minutes": 30,
+  "confidence": 0.5,
+  "detected_at": "2026-03-26T08:08:56.034354+00:00",
+  "raw_data": {
+    "question": "Fed rate cut by December 2026 meeting?",
+    "prev": 67,
+    "current": 63.5,
+    "delta": -3.5,
+    "direction": "\ud83d\udcc9",
+    "liquidity": 44639.7928,
+    "category": "FRB\u5229\u4e0b\u3052/\u5229\u4e0a\u3052",
+    "query": "Fed rate",
+    "tickers": [
+      "XLF",
+      "VNQ",
+      "TLT"
+    ]
+  }
+}

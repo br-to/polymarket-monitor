@@ -1,0 +1,24 @@
+{
+  "event_id": "c8314be4cc06f468",
+  "event_type": "odds_change",
+  "market": "Will the price of Bitcoin be between $66,000 and $68,000 on March 27?",
+  "direction": "down",
+  "magnitude": 0.04,
+  "timeframe_minutes": 30,
+  "confidence": 0.5,
+  "detected_at": "2026-03-26T20:00:07.979945+00:00",
+  "raw_data": {
+    "question": "Will the price of Bitcoin be between $66,000 and $68,000 on March 27?",
+    "prev": 33.5,
+    "current": 29.5,
+    "delta": -4,
+    "direction": "\ud83d\udcc9",
+    "liquidity": 16849.9149,
+    "category": "BTC\u4fa1\u683c",
+    "query": "Bitcoin price",
+    "tickers": [
+      "COIN",
+      "MSTR"
+    ]
+  }
+}

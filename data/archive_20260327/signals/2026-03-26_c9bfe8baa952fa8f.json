@@ -1,0 +1,25 @@
+{
+  "event_id": "c9bfe8baa952fa8f",
+  "event_type": "odds_change",
+  "market": "Will no Fed rate cuts happen in 2026?",
+  "direction": "up",
+  "magnitude": 0.051,
+  "timeframe_minutes": 30,
+  "confidence": 0.7,
+  "detected_at": "2026-03-26T18:00:08.692234+00:00",
+  "raw_data": {
+    "question": "Will no Fed rate cuts happen in 2026?",
+    "prev": 28.3,
+    "current": 33.4,
+    "delta": 5.1,
+    "direction": "\ud83d\udcc8",
+    "liquidity": 64947.71285,
+    "category": "FRB\u5229\u4e0b\u3052/\u5229\u4e0a\u3052",
+    "query": "Fed rate",
+    "tickers": [
+      "XLF",
+      "VNQ",
+      "TLT"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "event_id": "82d269e799232112",
+  "event_type": "odds_change",
+  "market": "Will the upper bound of the target federal funds rate be 3.75% at the end of 202",
+  "direction": "up",
+  "magnitude": 0.033,
+  "timeframe_minutes": 30,
+  "confidence": 0.5,
+  "detected_at": "2026-03-26T17:00:08.619825+00:00",
+  "raw_data": {
+    "question": "Will the upper bound of the target federal funds rate be 3.75% at the end of 202",
+    "prev": 31.6,
+    "current": 34.9,
+    "delta": 3.3,
+    "direction": "\ud83d\udcc8",
+    "liquidity": 15698.64721,
+    "category": "FRB\u5229\u4e0b\u3052/\u5229\u4e0a\u3052",
+    "query": "Fed rate",
+    "tickers": [
+      "XLF",
+      "VNQ",
+      "TLT"
+    ]
+  }
+}

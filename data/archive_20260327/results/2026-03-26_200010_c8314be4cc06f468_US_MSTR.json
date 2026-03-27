@@ -1,0 +1,15 @@
+{
+  "event_id": "c8314be4cc06f468",
+  "ticker": "US.MSTR",
+  "side": "BUY",
+  "size_usd": 1000,
+  "dry_run": true,
+  "status": "recorded_only",
+  "order_id": null,
+  "error": null,
+  "entry_price": 132.9600067138672,
+  "confidence": 0.5,
+  "reason": "Will the price of Bitcoin be between $66,000 and $68,000 on March 27? down 4.0% in 30min",
+  "theme": "crypto",
+  "recorded_at": "2026-03-26T20:00:07.980757+00:00"
+}

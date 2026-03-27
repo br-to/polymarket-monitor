@@ -1,0 +1,25 @@
+{
+  "event_id": "7ef909b86fc95249",
+  "event_type": "odds_change",
+  "market": "Will Trump visit China by May 31?",
+  "direction": "down",
+  "magnitude": 0.03,
+  "timeframe_minutes": 30,
+  "confidence": 0.5,
+  "detected_at": "2026-03-26T08:08:59.117258+00:00",
+  "raw_data": {
+    "question": "Will Trump visit China by May 31?",
+    "prev": 84.5,
+    "current": 81.5,
+    "delta": -3,
+    "direction": "\ud83d\udcc9",
+    "liquidity": 63353.6338,
+    "category": "\u4e2d\u56fd\u60c5\u52e2",
+    "query": "China",
+    "tickers": [
+      "FXI",
+      "KWEB",
+      "BABA"
+    ]
+  }
+}

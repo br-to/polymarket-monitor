@@ -1,0 +1,24 @@
+{
+  "event_id": "931477f65456b131",
+  "event_type": "odds_change",
+  "market": "Will Ethereum dip to $1,800 in March?",
+  "direction": "up",
+  "magnitude": 0.036000000000000004,
+  "timeframe_minutes": 30,
+  "confidence": 0.5,
+  "detected_at": "2026-03-26T12:00:13.933207+00:00",
+  "raw_data": {
+    "question": "Will Ethereum dip to $1,800 in March?",
+    "prev": 8,
+    "current": 11.6,
+    "delta": 3.6,
+    "direction": "\ud83d\udcc8",
+    "liquidity": 82756.26881,
+    "category": "ETH/DeFi",
+    "query": "Ethereum",
+    "tickers": [
+      "COIN",
+      "MSTR"
+    ]
+  }
+}
