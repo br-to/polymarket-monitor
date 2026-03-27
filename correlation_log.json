@@ -360,7 +360,10 @@
         "crypto_ids": [],
         "stock_symbols": []
       },
-      "result": null
+      "result": {
+        "checked_at": "2026-03-27T04:00:06.370Z",
+        "changes": []
+      }
     },
     {
       "timestamp": "2026-03-26T03:00:08.073Z",
@@ -376,7 +379,10 @@
         "crypto_ids": [],
         "stock_symbols": []
       },
-      "result": null
+      "result": {
+        "checked_at": "2026-03-27T04:00:06.370Z",
+        "changes": []
+      }
     },
     {
       "timestamp": "2026-03-26T03:00:08.073Z",
@@ -392,7 +398,10 @@
         "crypto_ids": [],
         "stock_symbols": []
       },
-      "result": null
+      "result": {
+        "checked_at": "2026-03-27T04:00:06.370Z",
+        "changes": []
+      }
     },
     {
       "timestamp": "2026-03-26T03:00:08.073Z",
@@ -416,7 +425,25 @@
           "COIN"
         ]
       },
-      "result": null
+      "result": {
+        "checked_at": "2026-03-27T04:00:06.370Z",
+        "changes": [
+          {
+            "asset": "ethereum",
+            "type": "crypto",
+            "price_at_event": 2148.31,
+            "price_after_24h": 2059.53,
+            "change_pct": -4.13
+          },
+          {
+            "asset": "COIN",
+            "type": "stock",
+            "price_at_event": 181.1,
+            "price_after_24h": 173.38,
+            "change_pct": -4.26
+          }
+        ]
+      }
     },
     {
       "timestamp": "2026-03-26T06:00:07.937Z",
@@ -432,7 +459,10 @@
         "crypto_ids": [],
         "stock_symbols": []
       },
-      "result": null
+      "result": {
+        "checked_at": "2026-03-27T07:00:07.510Z",
+        "changes": []
+      }
     },
     {
       "timestamp": "2026-03-26T06:00:07.937Z",
@@ -448,7 +478,10 @@
         "crypto_ids": [],
         "stock_symbols": []
       },
-      "result": null
+      "result": {
+        "checked_at": "2026-03-27T07:00:07.510Z",
+        "changes": []
+      }
     },
     {
       "timestamp": "2026-03-26T06:00:07.938Z",
@@ -464,7 +497,10 @@
         "crypto_ids": [],
         "stock_symbols": []
       },
-      "result": null
+      "result": {
+        "checked_at": "2026-03-27T07:00:07.510Z",
+        "changes": []
+      }
     },
     {
       "timestamp": "2026-03-26T06:00:07.938Z",
@@ -480,7 +516,10 @@
         "crypto_ids": [],
         "stock_symbols": []
       },
-      "result": null
+      "result": {
+        "checked_at": "2026-03-27T07:00:07.510Z",
+        "changes": []
+      }
     },
     {
       "timestamp": "2026-03-26T06:00:07.938Z",
@@ -496,7 +535,10 @@
         "crypto_ids": [],
         "stock_symbols": []
       },
-      "result": null
+      "result": {
+        "checked_at": "2026-03-27T07:00:07.510Z",
+        "changes": []
+      }
     },
     {
       "timestamp": "2026-03-26T06:00:07.938Z",
@@ -512,7 +554,10 @@
         "crypto_ids": [],
         "stock_symbols": []
       },
-      "result": null
+      "result": {
+        "checked_at": "2026-03-27T07:00:07.510Z",
+        "changes": []
+      }
     },
     {
       "timestamp": "2026-03-26T06:00:07.938Z",
@@ -528,7 +573,10 @@
         "crypto_ids": [],
         "stock_symbols": []
       },
-      "result": null
+      "result": {
+        "checked_at": "2026-03-27T07:00:07.510Z",
+        "changes": []
+      }
     },
     {
       "timestamp": "2026-03-26T06:00:07.938Z",
@@ -552,7 +600,25 @@
           "COIN"
         ]
       },
-      "result": null
+      "result": {
+        "checked_at": "2026-03-27T07:00:07.510Z",
+        "changes": [
+          {
+            "asset": "ethereum",
+            "type": "crypto",
+            "price_at_event": 2117.07,
+            "price_after_24h": 2062.11,
+            "change_pct": -2.6
+          },
+          {
+            "asset": "COIN",
+            "type": "stock",
+            "price_at_event": 181.1,
+            "price_after_24h": 173.38,
+            "change_pct": -4.26
+          }
+        ]
+      }
     },
     {
       "timestamp": "2026-03-26T08:08:50.974Z",
@@ -1727,6 +1793,196 @@
       "check_after_24h": {
         "crypto_ids": [],
         "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-27T04:00:06.369Z",
+      "market": "Iran x Israel/US conflict ends by May 15?",
+      "query": "Iran",
+      "odds_prev": 48.5,
+      "odds_current": 44.5,
+      "odds_delta": -4,
+      "direction": "📉",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-27T04:00:06.370Z",
+      "market": "Will the price of Bitcoin be between $66,000 and $68,000 on March 27?",
+      "query": "Bitcoin price",
+      "odds_prev": 22.5,
+      "odds_current": 25.5,
+      "odds_delta": 3,
+      "direction": "📈",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-27T04:00:06.370Z",
+      "market": "Will the price of Bitcoin be between $70,000 and $72,000 on March 27?",
+      "query": "Bitcoin price",
+      "odds_prev": 20,
+      "odds_current": 17,
+      "odds_delta": -3,
+      "direction": "📉",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-27T05:00:06.429Z",
+      "market": "Will the price of Bitcoin be between $70,000 and $72,000 on March 27?",
+      "query": "Bitcoin price",
+      "odds_prev": 17,
+      "odds_current": 13.5,
+      "odds_delta": -3.5,
+      "direction": "📉",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-27T05:00:06.430Z",
+      "market": "Will the price of Ethereum be above $2,100 on March 27?",
+      "query": "Ethereum",
+      "odds_prev": 20.5,
+      "odds_current": 16,
+      "odds_delta": -4.5,
+      "direction": "📉",
+      "crypto_prices_at_event": {
+        "ethereum": 2051.59
+      },
+      "stock_prices_at_event": {
+        "COIN": 173.38
+      },
+      "check_after_24h": {
+        "crypto_ids": [
+          "ethereum"
+        ],
+        "stock_symbols": [
+          "COIN"
+        ]
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-27T06:00:06.870Z",
+      "market": "US x Iran ceasefire by April 30?",
+      "query": "Iran",
+      "odds_prev": 41,
+      "odds_current": 37.5,
+      "odds_delta": -3.5,
+      "direction": "📉",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-27T06:00:06.871Z",
+      "market": "US x Iran ceasefire by May 31?",
+      "query": "Iran",
+      "odds_prev": 55.5,
+      "odds_current": 52.5,
+      "odds_delta": -3,
+      "direction": "📉",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {},
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": []
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-27T06:00:06.871Z",
+      "market": "Will the price of Ethereum be above $2,000 on March 27?",
+      "query": "Ethereum",
+      "odds_prev": 84.7,
+      "odds_current": 88.6,
+      "odds_delta": 3.8,
+      "direction": "📈",
+      "crypto_prices_at_event": {
+        "ethereum": 2059.75
+      },
+      "stock_prices_at_event": {
+        "COIN": 173.38
+      },
+      "check_after_24h": {
+        "crypto_ids": [
+          "ethereum"
+        ],
+        "stock_symbols": [
+          "COIN"
+        ]
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-27T06:00:06.871Z",
+      "market": "Will the price of Ethereum be above $2,100 on March 27?",
+      "query": "Ethereum",
+      "odds_prev": 16,
+      "odds_current": 19.5,
+      "odds_delta": 3.5,
+      "direction": "📈",
+      "crypto_prices_at_event": {
+        "ethereum": 2059.75
+      },
+      "stock_prices_at_event": {
+        "COIN": 173.38
+      },
+      "check_after_24h": {
+        "crypto_ids": [
+          "ethereum"
+        ],
+        "stock_symbols": [
+          "COIN"
+        ]
+      },
+      "result": null
+    },
+    {
+      "timestamp": "2026-03-27T07:00:07.509Z",
+      "market": "Bank of Japan increases interest rates by 25 bps after the April 2026 meeting?",
+      "query": "Bank of Japan",
+      "odds_prev": 58,
+      "odds_current": 61.5,
+      "odds_delta": 3.5,
+      "direction": "📈",
+      "crypto_prices_at_event": {},
+      "stock_prices_at_event": {
+        "EWJ": 82.71,
+        "FXY": 57.43
+      },
+      "check_after_24h": {
+        "crypto_ids": [],
+        "stock_symbols": [
+          "EWJ",
+          "FXY"
+        ]
       },
       "result": null
     }

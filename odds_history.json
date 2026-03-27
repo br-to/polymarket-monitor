@@ -4,9 +4,9 @@
   },
   "0x16dd5e4c4bfa3f3095c3ff0def4bed556eba411e3cdbf7b463b3b9a74c1d93a4": {
     "question": "Will the upper bound of the target federal funds rate be 4.25% at the end of 2026?",
-    "yes_pct": 2.1,
-    "liquidity": 15371.46613,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 2,
+    "liquidity": 14187.92459,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -19,8 +19,8 @@
   "0xcefba5a5ca20b0fee51103c05388828b138cc2199a36fe5a7702049dbc9e5222": {
     "question": "Will the upper bound of the target federal funds rate be 2.25% at the end of 2026?",
     "yes_pct": 0.5,
-    "liquidity": 13690.78292,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 12368.29599,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -32,9 +32,9 @@
   },
   "0xaf3a3a07512f3123098b5901a8c4ed2a8320cc7c8e011c831ce4af3c17324260": {
     "question": "Will the upper bound of the target federal funds rate be 3.25% at the end of 2026?",
-    "yes_pct": 14.5,
-    "liquidity": 12502.1628,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 17.5,
+    "liquidity": 18202.0816,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -46,9 +46,9 @@
   },
   "0xf88da08f18b2026d986d67508141ec7c13614d87a6ff0f5315edfce4df643165": {
     "question": "Will the upper bound of the target federal funds rate be 3.75% at the end of 2026?",
-    "yes_pct": 35.7,
-    "liquidity": 15822.61563,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 34,
+    "liquidity": 14412.25186,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -61,8 +61,8 @@
   "0xf9ca1f6608ee282342a6c8d108dda15b91fc9cc1cf9e90a548c3ae5f825b425f": {
     "question": "Will the upper bound of the target federal funds rate be 3.0% at the end of 2026?",
     "yes_pct": 3.9,
-    "liquidity": 18228.7653,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 16371.15625,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -74,9 +74,9 @@
   },
   "0xed67f6f9c7c20366b5e608062ada2b8bcb2f667f96d9acdbfc945bd1e5dfdaea": {
     "question": "Will the upper bound of the target federal funds rate be 2.5% at the end of 2026?",
-    "yes_pct": 0.7,
-    "liquidity": 14963.57874,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 0.8,
+    "liquidity": 14353.59478,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -89,8 +89,8 @@
   "0x0fe6bc20ffff1a1f3c0b076f2c512fc582fb82be1cf5836b59bbafa17151fb32": {
     "question": "Will the upper bound of the target federal funds rate be 2.75% at the end of 2026?",
     "yes_pct": 7,
-    "liquidity": 19206.7892,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 39107.8992,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -102,9 +102,9 @@
   },
   "0xfdf784c55879c70a90eab563dde386b6c5965e41be15fa74424f1db623282312": {
     "question": "Will the upper bound of the target federal funds rate be 3.5% at the end of 2026?",
-    "yes_pct": 23.5,
-    "liquidity": 14354.7304,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 24,
+    "liquidity": 13960.2031,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -116,9 +116,9 @@
   },
   "0xb6abfbc465b88c6085503b3280872545c99c43fc979674bb47b9df1f7c170fd3": {
     "question": "Will the upper bound of the target federal funds rate be 4.0% at the end of 2026?",
-    "yes_pct": 8.8,
-    "liquidity": 15888.92895,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 9.8,
+    "liquidity": 14482.1592,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -130,9 +130,9 @@
   },
   "0x3d20f26deb9b9cc7e24e5e06c10234a722d93bac095ce1105c59b44b503078d7": {
     "question": "Will the upper bound of the target federal funds rate be ≥ 4.5% at the end of 2026?",
-    "yes_pct": 2.8,
-    "liquidity": 14635.59148,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 2.7,
+    "liquidity": 11971.22213,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -145,8 +145,8 @@
   "0x857a2ae8088bc256184d6684adfdc7832d072e526c1e8f0d218c1160770c20e9": {
     "question": "Will the upper bound of the target federal funds rate be ≤1.0% at the end of 2026?",
     "yes_pct": 1.4,
-    "liquidity": 11657.08654,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 10740.26398,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -158,9 +158,9 @@
   },
   "0x7a4ddd066c01025c1f97739238a872546c73ac4a32f75f8045f526a8eb27d1a0": {
     "question": "Will the upper bound of the target federal funds rate be 1.25% at the end of 2026?",
-    "yes_pct": 0.6,
-    "liquidity": 16020.18888,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 0.9,
+    "liquidity": 14300.33023,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -172,9 +172,9 @@
   },
   "0xb81fde30f892e09596d26670fd93da5a113451e197d059b434c2b27bb5c27b09": {
     "question": "Will the upper bound of the target federal funds rate be 1.5% at the end of 2026?",
-    "yes_pct": 0.4,
-    "liquidity": 14930.11489,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 0.5,
+    "liquidity": 13594.92132,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -187,8 +187,8 @@
   "0x98283dd207781ce8b3e2bf9890b6e9f7d36fc3eb1a24ac0080833f04fb06f2d6": {
     "question": "Will the upper bound of the target federal funds rate be 1.75% at the end of 2026?",
     "yes_pct": 0.4,
-    "liquidity": 14888.59844,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 13208.17039,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -200,9 +200,9 @@
   },
   "0x75ad781e57ad5ef7d8e279c838da39ab60351fdc056492375af4e35247d5af25": {
     "question": "Will the upper bound of the target federal funds rate be 2.0% at the end of 2026?",
-    "yes_pct": 0.5,
-    "liquidity": 15268.13162,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 0.8,
+    "liquidity": 14285.63958,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -214,9 +214,9 @@
   },
   "0xd4e77ba6f29fc093509d24f508631abd445ecf506bbdc9c4c80e60256a318527": {
     "question": "Will no Fed rate cuts happen in 2026?",
-    "yes_pct": 39.2,
-    "liquidity": 56792.6074,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 40.6,
+    "liquidity": 57820.33724,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -229,8 +229,8 @@
   "0x5e082f0b57f47a29044aa35b4c5658393122e659d5feae521c06b57cdd7f905c": {
     "question": "Will 1 Fed rate cut happen in 2026?",
     "yes_pct": 24.5,
-    "liquidity": 70282.2859,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 73570.7133,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -243,8 +243,8 @@
   "0xe0d9f508a249e0070db06eb7d1e1fb17eb23c963f6fb722c4c3f81e23240c1cd": {
     "question": "Will 2 Fed rate cuts happen in 2026?",
     "yes_pct": 17.5,
-    "liquidity": 78180.2153,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 78653.5237,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -256,9 +256,9 @@
   },
   "0x8d4966e84ae80f24b2e14643fdd45364e354229e11e2c17903b4b1763cfbe67c": {
     "question": "Will 3 Fed rate cuts happen in 2026?",
-    "yes_pct": 10.5,
-    "liquidity": 93092.1747,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 9.5,
+    "liquidity": 95895.8879,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -270,9 +270,9 @@
   },
   "0xaece8d6062d3e3eb9845b32441a4ab06eb2ef332c0228bc6a36add450647c7c4": {
     "question": "Will 4 Fed rate cuts happen in 2026?",
-    "yes_pct": 4.3,
-    "liquidity": 77453.85713,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 3.9,
+    "liquidity": 78010.64236,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -284,9 +284,9 @@
   },
   "0x7ee722a07e0f84405f1267bc1c84eb95bd6348454453abf445618e778af8fd18": {
     "question": "Will 5 Fed rate cuts happen in 2026?",
-    "yes_pct": 2,
-    "liquidity": 87403.5196,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 1.9,
+    "liquidity": 146498.69059,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -299,8 +299,8 @@
   "0x4914bfdd892a48c341b5e0f41ec10475a815f2277273110b16f95e21084bfe75": {
     "question": "Will 6 Fed rate cuts happen in 2026?",
     "yes_pct": 1.2,
-    "liquidity": 90157.10176,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 151099.64902,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -313,8 +313,8 @@
   "0x2368d2604c9c2b95bc98c51bd50c66e5351caebf05b9fe79d3398c387fe29a89": {
     "question": "Will 7 Fed rate cuts happen in 2026?",
     "yes_pct": 0.8,
-    "liquidity": 86871.93298,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 88686.44798,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -326,9 +326,9 @@
   },
   "0xfe28cb84a714b1a964290d7fd2587e71d57e905678c8ab64488449b24be78e52": {
     "question": "Will 8 Fed rate cuts happen in 2026?",
-    "yes_pct": 0.5,
-    "liquidity": 65029.95789,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 0.6,
+    "liquidity": 67027.8796,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -341,8 +341,8 @@
   "0x4ec6fcb43fe1a32163c7da09d54a99ab9bf6abdc6fd49939d7ad67d696a3248b": {
     "question": "Will 9 Fed rate cuts happen in 2026?",
     "yes_pct": 0.3,
-    "liquidity": 87315.24816,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 93342.60001,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -355,8 +355,8 @@
   "0x757c144993b3cb831e04c42bfcff8c18864c7da4f4688a5939d2f62e031cbc87": {
     "question": "Will 10 Fed rate cuts happen in 2026?",
     "yes_pct": 0.3,
-    "liquidity": 96597.01908,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 107593.54964,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -369,8 +369,8 @@
   "0x1adf074e048fa613f4ddbc0766088748a48d120a3a713b0183e219032a411ae3": {
     "question": "Will 11 Fed rate cuts happen in 2026?",
     "yes_pct": 0.3,
-    "liquidity": 118735.27272,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 128048.72449,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -383,8 +383,8 @@
   "0xffa0accb74987c0dc33a70eb3780c1da160206bcfb3ef5d16c1667bc5c459c78": {
     "question": "Will 12 or more Fed rate cuts happen in 2026?",
     "yes_pct": 0.9,
-    "liquidity": 75138.20848,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 78373.17211,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -396,9 +396,9 @@
   },
   "0x80b3af88cb991980e8da1ce86b9794a0957f96ec98c29319dd7ba65e9744d82b": {
     "question": "Fed rate hike in 2026?",
-    "yes_pct": 24.5,
-    "liquidity": 39403.3817,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 25.5,
+    "liquidity": 42503.8667,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "fed-rate",
     "query": "Fed rate",
     "tickers": [
@@ -411,8 +411,8 @@
   "0x3c6bcb7da14ea576e5af25547dbd96f2bb24ac34e748e76aecff2ee9195dd1ac": {
     "question": "US x Iran ceasefire by March 31?",
     "yes_pct": 4.5,
-    "liquidity": 816872.1041,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 909547.5404,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "iran",
     "query": "Iran",
     "tickers": [
@@ -424,9 +424,9 @@
   },
   "0x80059ff4e694f878c0498f6f3a067ee7ca62dc2fc46251a4287b58355ce47bc5": {
     "question": "US x Iran ceasefire by April 30?",
-    "yes_pct": 42.5,
-    "liquidity": 165607.5311,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 37.5,
+    "liquidity": 186153.4034,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "iran",
     "query": "Iran",
     "tickers": [
@@ -438,9 +438,9 @@
   },
   "0x4ccff8c606ad71080c7611d28f1593a528a8ca6c11c1fb63bfa24a7eb2ad30d7": {
     "question": "US x Iran ceasefire by December 31?",
-    "yes_pct": 77.5,
-    "liquidity": 124496.9981,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 75.5,
+    "liquidity": 173790.4094,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "iran",
     "query": "Iran",
     "tickers": [
@@ -452,9 +452,9 @@
   },
   "0x81b06cb917c9a2aabc67a7765bc3c640e88a699bbf451b29915049c0766cde04": {
     "question": "US x Iran ceasefire by June 30?",
-    "yes_pct": 63.5,
-    "liquidity": 165848.6998,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 60.5,
+    "liquidity": 211788.4012,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "iran",
     "query": "Iran",
     "tickers": [
@@ -466,9 +466,9 @@
   },
   "0xa9937410f8aae98cc6440a7480ad832be5a1a998afcf5a6e77c6f5aa4c0f259f": {
     "question": "US x Iran ceasefire by May 31?",
-    "yes_pct": 55.5,
-    "liquidity": 107733.1863,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 51.5,
+    "liquidity": 159521.0303,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "iran",
     "query": "Iran",
     "tickers": [
@@ -480,9 +480,9 @@
   },
   "0x773abaa5fe55e5cde51a261f444b7921652a4e059ead6b3be9fe56499c2d4609": {
     "question": "US x Iran ceasefire by April 15?",
-    "yes_pct": 28.5,
-    "liquidity": 129027.7252,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 26.5,
+    "liquidity": 157118.8315,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "iran",
     "query": "Iran",
     "tickers": [
@@ -494,9 +494,9 @@
   },
   "0x4c5701bcde0b8fb7d7f48c8e9d20245a6caa58c61a77f981fad98f2bfa0b1bc7": {
     "question": "US x Iran ceasefire by April 7?",
-    "yes_pct": 16.5,
-    "liquidity": 87992.6894,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 12.5,
+    "liquidity": 139735.7162,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "iran",
     "query": "Iran",
     "tickers": [
@@ -508,9 +508,9 @@
   },
   "0x306d10d4a4d51b41910dbc779ca00908bd917c131541c5c42bbbc736258d2d56": {
     "question": "US forces enter Iran by March 31?",
-    "yes_pct": 15.5,
-    "liquidity": 490099.5872,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 16.5,
+    "liquidity": 571641.4394,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "iran",
     "query": "Iran",
     "tickers": [
@@ -522,9 +522,9 @@
   },
   "0xe4b9a52d2bb336ff9d84799b70e72e8e5f4507df881af60f3f4daeb9f541a80e": {
     "question": "US forces enter Iran by December 31?",
-    "yes_pct": 69,
-    "liquidity": 80781.2916,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 69.5,
+    "liquidity": 171890.0132,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "iran",
     "query": "Iran",
     "tickers": [
@@ -536,9 +536,9 @@
   },
   "0x6d0e09d0f04572d9b1adad84703458b0297bc5603b69dccbde93147ee4443246": {
     "question": "US forces enter Iran by April 30?",
-    "yes_pct": 62.5,
-    "liquidity": 307528.488,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 61.5,
+    "liquidity": 448983.5303,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "iran",
     "query": "Iran",
     "tickers": [
@@ -677,8 +677,8 @@
   "0xfdc73f10edf0266756686f35b5712cffa828b0940fc015e0426c76c934c2105d": {
     "question": "US recession by end of 2026?",
     "yes_pct": 35.5,
-    "liquidity": 82858.542,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 88044.4065,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "recession",
     "query": "recession",
     "tickers": [
@@ -691,8 +691,8 @@
   "0x01677ae80095732d69ef484b859460b69d21714dd370b9e4f377469c35fac05d": {
     "question": "Canada recession before 2027?",
     "yes_pct": 43,
-    "liquidity": 23805.9142,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 25335.3745,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "recession",
     "query": "recession",
     "tickers": [
@@ -704,9 +704,9 @@
   },
   "0xffff6c984d7adab19e799c46d1a478d5ab6483479b41f9639d04617f07a8bab0": {
     "question": "Will Trump visit China by March 31?",
-    "yes_pct": 0.2,
-    "liquidity": 998391.62362,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 0.3,
+    "liquidity": 1046224.07788,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "china",
     "query": "China",
     "tickers": [
@@ -719,8 +719,8 @@
   "0x48fbf70c1713e71a405052bc4641e26dbba435fa557672c4040763c901cbf606": {
     "question": "Will Trump visit China by April 30?",
     "yes_pct": 3.6,
-    "liquidity": 131427.94645,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 133531.58132,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "china",
     "query": "China",
     "tickers": [
@@ -732,9 +732,9 @@
   },
   "0xcd215b8330a35098a1a3f6c46b6492347edb5e74c1e0a95ac4d3d54aece6c262": {
     "question": "Will Trump visit China by May 31?",
-    "yes_pct": 81,
-    "liquidity": 62934.4337,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 79.5,
+    "liquidity": 83632.3984,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "china",
     "query": "China",
     "tickers": [
@@ -747,8 +747,8 @@
   "0xaaacff0f7424b38e61ee5c5b2ea9d7335d0553eca2afb874267cd94c54a11925": {
     "question": "Will Trump visit China by June 30?",
     "yes_pct": 86.5,
-    "liquidity": 61182.0027,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 62143.0033,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "china",
     "query": "China",
     "tickers": [
@@ -762,7 +762,7 @@
     "question": "Will China invade Taiwan by end of 2026?",
     "yes_pct": 10.7,
     "liquidity": 528101.95515,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "china",
     "query": "China",
     "tickers": [
@@ -775,8 +775,8 @@
   "0x2701e5a5b751418c5c5bf0faaafdea60ac9fc893eb75fd88e902cd97458d375b": {
     "question": "Will China invade Taiwan by March 31, 2026?",
     "yes_pct": 0.3,
-    "liquidity": 256254.05227,
-    "timestamp": "2026-03-26 06:00 UTC",
+    "liquidity": 284467.14986,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "china",
     "query": "China",
     "tickers": [
@@ -789,8 +789,8 @@
   "0x8fb526c3afd133bae39214acb5502374a36e3563cbedb8a964899825c8be2b64": {
     "question": "Bank of Japan decreases interest rates after the April 2026 meeting?",
     "yes_pct": 0.7,
-    "liquidity": 13537.25513,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 12295.61372,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "boj",
     "query": "Bank of Japan",
     "tickers": [
@@ -802,9 +802,9 @@
   },
   "0x62b71e5e61067bc382f67779e8135ee4512acbab9ddb4a44917dc7d9f93e607a": {
     "question": "No change in Bank of Japan’s interest rates after the April 2026 meeting?",
-    "yes_pct": 40,
-    "liquidity": 5687.4558,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 37.5,
+    "liquidity": 5609.6931,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "boj",
     "query": "Bank of Japan",
     "tickers": [
@@ -816,9 +816,9 @@
   },
   "0x848223ff8871d1f37fcb6ba83a5edc1c917ea4bdc8c708a4513e56f575091277": {
     "question": "Bank of Japan increases interest rates by 25 bps after the April 2026 meeting?",
-    "yes_pct": 58,
-    "liquidity": 4623.0609,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 61.5,
+    "liquidity": 8010.8208,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "boj",
     "query": "Bank of Japan",
     "tickers": [
@@ -831,8 +831,8 @@
   "0x00da1f8d0b1f8fac5a6d1cb44dc84f6bc1af7d552e452c9debd50cd290d6df71": {
     "question": "Bank of Japan increases interest rates by 50+ bps after the April 2026 meeting?",
     "yes_pct": 0.9,
-    "liquidity": 11127.41034,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 9712.04177,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "boj",
     "query": "Bank of Japan",
     "tickers": [
@@ -845,8 +845,8 @@
   "0xd175952df3f4312096d408a699c922af54d31b17b8d22afb35e8f09016053de9": {
     "question": "Bank of Japan increases interest rates by 50+ bps after the June 2026 meeting?",
     "yes_pct": 9,
-    "liquidity": 1910.7944,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 1896.0539,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "boj",
     "query": "Bank of Japan",
     "tickers": [
@@ -859,8 +859,8 @@
   "0xba7ce27f7204f5813d992cd3d71c72cc8138268041b2a80d52109f0a13b77a4f": {
     "question": "Bank of Japan decreases interest rates after the June 2026 meeting?",
     "yes_pct": 6,
-    "liquidity": 2747.2939,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 7403.4943,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "boj",
     "query": "Bank of Japan",
     "tickers": [
@@ -1027,8 +1027,8 @@
   "0xa7a9755e95e3809cd57814a2e32bcae9c752f5403a5eef12c6cc509ea10b1c9e": {
     "question": "Will Ethereum reach $4,000 in March?",
     "yes_pct": 0.2,
-    "liquidity": 306569.84971,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 332973.50845,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "ethereum",
     "query": "Ethereum",
     "tickers": [
@@ -1040,8 +1040,8 @@
   "0x06a77c3f7e296467d87baec3c5f5666f37344d7c2328bfe113f930213d9ea162": {
     "question": "Will Ethereum reach $3,800 in March?",
     "yes_pct": 0.2,
-    "liquidity": 342014.74994,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 334680.86175,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "ethereum",
     "query": "Ethereum",
     "tickers": [
@@ -1053,8 +1053,8 @@
   "0x5f5f03e5f951611f2d292afe7b69ebe1d6732d38ce0680dfdb19ae1446d1a9e3": {
     "question": "Will Ethereum reach $3,600 in March?",
     "yes_pct": 0.2,
-    "liquidity": 306234.47209,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 331086.36393,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "ethereum",
     "query": "Ethereum",
     "tickers": [
@@ -1065,9 +1065,9 @@
   },
   "0xe11f25607d3932731bb42b4c8f6613456a45abb7267b25f0eeefe6ed505b79b6": {
     "question": "Will Ethereum reach $3,400 in March?",
-    "yes_pct": 0.3,
-    "liquidity": 138052.61647,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 0.2,
+    "liquidity": 171324.25193,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "ethereum",
     "query": "Ethereum",
     "tickers": [
@@ -1079,8 +1079,8 @@
   "0xbce23197ae7874792301e6cffa6dd8bac43c5deb62b0a8955c956ef2d3c56bf1": {
     "question": "Will Ethereum reach $3,200 in March?",
     "yes_pct": 0.3,
-    "liquidity": 132653.46747,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 147753.07908,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "ethereum",
     "query": "Ethereum",
     "tickers": [
@@ -1092,8 +1092,8 @@
   "0xa6f3358cf377f74c645a4f5a197ca305fdef0eb069096719ccdb0f08f5f956df": {
     "question": "Will Ethereum reach $3,000 in March?",
     "yes_pct": 0.3,
-    "liquidity": 75891.65067,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 74999.89633,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "ethereum",
     "query": "Ethereum",
     "tickers": [
@@ -1104,9 +1104,9 @@
   },
   "0x300a50f94fe153746aca0714ba2f3fc742fbcbb9bacf24791caf5c3af3406fa4": {
     "question": "Will Ethereum reach $2,800 in March?",
-    "yes_pct": 0.6,
-    "liquidity": 69911.03847,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 0.4,
+    "liquidity": 67363.06638,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "ethereum",
     "query": "Ethereum",
     "tickers": [
@@ -1117,9 +1117,9 @@
   },
   "0x6c56930693777443c84bc172003442d9e317476fdcf59c9b26a60034001d9c19": {
     "question": "Will Ethereum reach $2,600 in March?",
-    "yes_pct": 0.9,
-    "liquidity": 73319.36062,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 0.7,
+    "liquidity": 71931.12142,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "ethereum",
     "query": "Ethereum",
     "tickers": [
@@ -1130,9 +1130,9 @@
   },
   "0x7f81f50d29b43799df512b52574cfe3ffbadfb62ddc71bacf89f4e0dc4c5ffed": {
     "question": "Will Ethereum reach $2,400 in March?",
-    "yes_pct": 8.5,
-    "liquidity": 63277.1581,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 5.5,
+    "liquidity": 64688.4229,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "ethereum",
     "query": "Ethereum",
     "tickers": [
@@ -1143,9 +1143,9 @@
   },
   "0xfb80c14c1497596d2b10533873c6ffca9dadf062807ffb104a9c86e04fae7d89": {
     "question": "Will Ethereum dip to $1,800 in March?",
-    "yes_pct": 8.9,
-    "liquidity": 82469.59667,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 8.6,
+    "liquidity": 88486.03995,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "ethereum",
     "query": "Ethereum",
     "tickers": [
@@ -1156,9 +1156,9 @@
   },
   "0x09ab024402ce8e8a2c36e1456640a2920a74b758fcdb4a7eb8c4c4a12e8c1476": {
     "question": "Will Ethereum dip to $1,600 in March?",
-    "yes_pct": 1.7,
-    "liquidity": 94589.55376,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 3.3,
+    "liquidity": 92886.08884,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "ethereum",
     "query": "Ethereum",
     "tickers": [
@@ -1169,9 +1169,9 @@
   },
   "0xd63199edbfb7cc08cab4db928e9fc0dc689b6097fffe6d83054238cd2678d36e": {
     "question": "Will Ethereum dip to $1,400 in March?",
-    "yes_pct": 0.9,
-    "liquidity": 101423.93019,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 0.8,
+    "liquidity": 100546.65823,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "ethereum",
     "query": "Ethereum",
     "tickers": [
@@ -1183,8 +1183,8 @@
   "0x9fa5501b17761f3533ce4878d54700fd531c3ecd18d538d3778afcd4be738f67": {
     "question": "Will Ethereum dip to $1,200 in March?",
     "yes_pct": 0.3,
-    "liquidity": 131494.2895,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 128744.18983,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "ethereum",
     "query": "Ethereum",
     "tickers": [
@@ -1196,8 +1196,8 @@
   "0xefccb55d0a7fc312ed9a0b871c895103c9dbda5a6dbf84399e7f5beea28820a7": {
     "question": "Will Ethereum dip to $1,000 in March?",
     "yes_pct": 0.3,
-    "liquidity": 135532.87618,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 126915.95771,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "ethereum",
     "query": "Ethereum",
     "tickers": [
@@ -1209,8 +1209,8 @@
   "0x890889b03060e11172bb5e60ededc677a74a5636b5361cde7a61a93ff5b299b5": {
     "question": "Will Ethereum dip to $800 in March?",
     "yes_pct": 0.3,
-    "liquidity": 126846.64771,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 127384.16184,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "ethereum",
     "query": "Ethereum",
     "tickers": [
@@ -1222,8 +1222,8 @@
   "0x027f673fb1a5f561630773407e511755d8e2e2282dd48a7df76c654ef1742c8a": {
     "question": "Will Ethereum dip to $600 in March?",
     "yes_pct": 0.2,
-    "liquidity": 231420.18413,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 233195.54439,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "ethereum",
     "query": "Ethereum",
     "tickers": [
@@ -1235,8 +1235,8 @@
   "0x38bbbd32895e46ca93d1da68e7d36b0cde0dd92a0460f03f73cce87b851ce1cd": {
     "question": "Will Ethereum dip to $400 in March?",
     "yes_pct": 0.2,
-    "liquidity": 169111.10542,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 167867.57422,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "ethereum",
     "query": "Ethereum",
     "tickers": [
@@ -1248,8 +1248,8 @@
   "0x4bf927342615e0775ae85642bf003345c60f11a872c3a7319c885f2bb9cc3ee0": {
     "question": "Will Ethereum dip to $200 in March?",
     "yes_pct": 0.1,
-    "liquidity": 439484.8361,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 437608.1457,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "ethereum",
     "query": "Ethereum",
     "tickers": [
@@ -1548,7 +1548,7 @@
     "question": "Ethereum spot ETF approved by Jan 31?",
     "yes_pct": 0,
     "liquidity": 3104.8120999999996,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "crypto-regulation",
     "query": "crypto regulation",
     "tickers": [
@@ -1560,8 +1560,8 @@
   "0xb3237c597bd198f2e5af2d9c2597c71cdda3ab88649a410a917798b3eec8cff4": {
     "question": "Bank of Japan increases interest rates by 25 bps after the June 2026 meeting?",
     "yes_pct": 26.1,
-    "liquidity": 1018.63003,
-    "timestamp": "2026-03-26 23:00 UTC",
+    "liquidity": 1029.02904,
+    "timestamp": "2026-03-27 04:00 UTC",
     "category": "boj",
     "query": "Bank of Japan",
     "tickers": [
@@ -1944,8 +1944,8 @@
   "0x006c094eeab7dac264ed602f6a8576475d72df9a6d53ab79b6fbc87148022f54": {
     "question": "Will the U.S. tariff rate on China be less than 5% on March 31?",
     "yes_pct": 0.5,
-    "liquidity": 8927.60133,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 7773.56382,
+    "timestamp": "2026-03-27 04:00 UTC",
     "category": "china",
     "query": "China",
     "tickers": [
@@ -1958,8 +1958,8 @@
   "0xde06508942f7f7d83bdbfc7c5b07c88e20891e9ef7440d74c9c259f2347fb8d3": {
     "question": "Will the U.S. tariff rate on China be between 5% and 15% on March 31?",
     "yes_pct": 95,
-    "liquidity": 16074.2223,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 16160.4353,
+    "timestamp": "2026-03-27 04:00 UTC",
     "category": "china",
     "query": "China",
     "tickers": [
@@ -1972,8 +1972,8 @@
   "0xccea89b06c0223bf0f86f2ad23f9ae438352407530a22e567026ab85860e6b85": {
     "question": "Will the U.S. tariff rate on China be between 15% and 25% on March 31?",
     "yes_pct": 3.5,
-    "liquidity": 14432.70202,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 13071.86205,
+    "timestamp": "2026-03-27 04:00 UTC",
     "category": "china",
     "query": "China",
     "tickers": [
@@ -1986,8 +1986,8 @@
   "0x1e7c1699caabf6e1259b3fff8d53d0ccead64b164a76ea06c7f937f57419b5f9": {
     "question": "Will the U.S. tariff rate on China be between 25% and 35% on March 31?",
     "yes_pct": 0.5,
-    "liquidity": 11482.4834,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 10525.80919,
+    "timestamp": "2026-03-27 04:00 UTC",
     "category": "china",
     "query": "China",
     "tickers": [
@@ -2000,8 +2000,8 @@
   "0x30c39c9a16c3357969d42fa4b008b119965a71157bc138f8230d0db529069f4d": {
     "question": "Will the U.S. tariff rate on China be 35% or greater on March 31?",
     "yes_pct": 0.2,
-    "liquidity": 17438.84915,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 16836.30745,
+    "timestamp": "2026-03-27 04:00 UTC",
     "category": "china",
     "query": "China",
     "tickers": [
@@ -2170,9 +2170,9 @@
   },
   "0x5a200d7d560169d60dc82cd16bb14c16f36f029fdf609dcb92d06a554f9f0fe1": {
     "question": "Iran x Israel/US conflict ends by March 31?",
-    "yes_pct": 3.3,
-    "liquidity": 105721.5022,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 4.3,
+    "liquidity": 113224.26029,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "iran",
     "query": "Iran",
     "tickers": [
@@ -2184,9 +2184,9 @@
   },
   "0x23408daff185f6c89d91bd279ce97142c573454277d72ae882a9d9fd1ae79af4": {
     "question": "Iran x Israel/US conflict ends by December 31?",
-    "yes_pct": 82.5,
-    "liquidity": 54796.8522,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 81.5,
+    "liquidity": 75932.2972,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "iran",
     "query": "Iran",
     "tickers": [
@@ -2198,9 +2198,9 @@
   },
   "0xa6ddb7146f48a12dbf73456d654211b01d7493829932c31b7fe85d82120d338f": {
     "question": "Iran x Israel/US conflict ends by April 30?",
-    "yes_pct": 35,
-    "liquidity": 49918.2519,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 34.5,
+    "liquidity": 68529.0401,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "iran",
     "query": "Iran",
     "tickers": [
@@ -2212,9 +2212,9 @@
   },
   "0x5c2e6aef8af5931e9bfa3750364626d754531d2fada2885d45c356b175962a25": {
     "question": "Iran x Israel/US conflict ends by April 15?",
-    "yes_pct": 23,
-    "liquidity": 38497.9737,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 21,
+    "liquidity": 84105.8297,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "iran",
     "query": "Iran",
     "tickers": [
@@ -2226,9 +2226,9 @@
   },
   "0x136f5a0c27a62cf9a2e40a4f48425e43d61b9571a53a2529372c0065f3218a73": {
     "question": "Iran x Israel/US conflict ends by June 30?",
-    "yes_pct": 65.5,
-    "liquidity": 71272.3728,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 61.5,
+    "liquidity": 82428.8293,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "iran",
     "query": "Iran",
     "tickers": [
@@ -2240,9 +2240,9 @@
   },
   "0xd73f60114a0e7169a55082daef1228cb27fa50c939eea22cb0589f6bac6ce5d3": {
     "question": "Iran x Israel/US conflict ends by May 15?",
-    "yes_pct": 50.5,
-    "liquidity": 43908.9937,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 44.5,
+    "liquidity": 102573.5872,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "iran",
     "query": "Iran",
     "tickers": [
@@ -2254,9 +2254,9 @@
   },
   "0x8183a221622f2d5d2b46da86c80d55a61f43d35829589e03c1efae9d072638c5": {
     "question": "Iran x Israel/US conflict ends by April 7?",
-    "yes_pct": 15,
-    "liquidity": 43633.5994,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 12.5,
+    "liquidity": 80982.4489,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "iran",
     "query": "Iran",
     "tickers": [
@@ -2268,9 +2268,9 @@
   },
   "0xdd88c35dffe219143817124ff6126b4bafaa12bba48e5489fc43d178bec2ae74": {
     "question": "Will the price of Bitcoin be between $74,000 and $76,000 on March 27?",
-    "yes_pct": 0.3,
-    "liquidity": 16122.03343,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 0.2,
+    "liquidity": 16282.92009,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "bitcoin",
     "query": "Bitcoin price",
     "tickers": [
@@ -2282,8 +2282,8 @@
   "0x28fabba0d1f9dc2bf816b63f12e043a9237b85a5102de67b1fbee93e2e5c7e06": {
     "question": "Will the price of Bitcoin be between $76,000 and $78,000 on March 27?",
     "yes_pct": 0.1,
-    "liquidity": 22512.42252,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 24514.60052,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "bitcoin",
     "query": "Bitcoin price",
     "tickers": [
@@ -2295,8 +2295,8 @@
   "0x33850ea6841f54cd7832db0d0ae50267f911a13ce5ffcd192eace35188535d8e": {
     "question": "Will the price of Bitcoin be greater than $78,000 on March 27?",
     "yes_pct": 0.1,
-    "liquidity": 25943.02372,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 27098.99872,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "bitcoin",
     "query": "Bitcoin price",
     "tickers": [
@@ -2308,8 +2308,8 @@
   "0x3fbbcc64dd6c7b7ee78c2cf8fe07b52e9abf378647a2f26f07b369bb23227620": {
     "question": "Will the price of Bitcoin be less than $60,000 on March 27?",
     "yes_pct": 0.1,
-    "liquidity": 20356.71218,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 20501.21918,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "bitcoin",
     "query": "Bitcoin price",
     "tickers": [
@@ -2320,9 +2320,9 @@
   },
   "0x5673f2881e2ba04aa0eed767442282511d91993e0279fba5cd0b4c7195184c3a": {
     "question": "Will the price of Bitcoin be between $60,000 and $62,000 on March 27?",
-    "yes_pct": 0.2,
-    "liquidity": 21514.51843,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 0.1,
+    "liquidity": 20334.82071,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "bitcoin",
     "query": "Bitcoin price",
     "tickers": [
@@ -2333,9 +2333,9 @@
   },
   "0x6a9efe0c714bf59829d930bda2c5cad31bb3b1f4e2df832db17ef81bfd2cd113": {
     "question": "Will the price of Bitcoin be between $62,000 and $64,000 on March 27?",
-    "yes_pct": 0.6,
-    "liquidity": 15624.91576,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 0.2,
+    "liquidity": 16458.83165,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "bitcoin",
     "query": "Bitcoin price",
     "tickers": [
@@ -2347,8 +2347,8 @@
   "0x747b54bff09a50965be6f0582854fae1eadc267b059ec3f324b3fe4bd27a4344": {
     "question": "Will the price of Bitcoin be between $64,000 and $66,000 on March 27?",
     "yes_pct": 2.9,
-    "liquidity": 16045.29763,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "liquidity": 15871.58462,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "bitcoin",
     "query": "Bitcoin price",
     "tickers": [
@@ -2359,9 +2359,9 @@
   },
   "0xf45942d7c085c040c9ecc50f80a2c58cbfa3af0ff9afbd4fe823e2f40ef73664": {
     "question": "Will the price of Bitcoin be between $66,000 and $68,000 on March 27?",
-    "yes_pct": 21.5,
-    "liquidity": 19760.4955,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 25.5,
+    "liquidity": 18647.7367,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "bitcoin",
     "query": "Bitcoin price",
     "tickers": [
@@ -2372,9 +2372,9 @@
   },
   "0xb67e9cc840acdd596827401e4e1bdeae011406971d10a57729db55578b96774e": {
     "question": "Will the price of Bitcoin be between $68,000 and $70,000 on March 27?",
-    "yes_pct": 49.5,
-    "liquidity": 29170.7828,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 56.5,
+    "liquidity": 29475.3288,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "bitcoin",
     "query": "Bitcoin price",
     "tickers": [
@@ -2385,9 +2385,9 @@
   },
   "0x2cdb7e9dd3f8251196cbee0bc4a02592b002cec90e074915964fdfed82d025f3": {
     "question": "Will the price of Bitcoin be between $70,000 and $72,000 on March 27?",
-    "yes_pct": 21.5,
-    "liquidity": 18157.1283,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 13.5,
+    "liquidity": 17542.5302,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "bitcoin",
     "query": "Bitcoin price",
     "tickers": [
@@ -2398,9 +2398,9 @@
   },
   "0xd46d9032162c7d8db1b397ef40a3a64e23306455a33594e7b56ff664d9f9a23f": {
     "question": "Will the price of Bitcoin be between $72,000 and $74,000 on March 27?",
-    "yes_pct": 2.5,
-    "liquidity": 15263.64463,
-    "timestamp": "2026-03-27 02:00 UTC",
+    "yes_pct": 1.4,
+    "liquidity": 16156.22145,
+    "timestamp": "2026-03-27 07:00 UTC",
     "category": "bitcoin",
     "query": "Bitcoin price",
     "tickers": [
@@ -2828,5 +2828,160 @@
       "XLE"
     ],
     "end_date": "2026-12-31T00:00:00Z"
+  },
+  "0xb0afa6091fc2af38d737a08aa17aa20230416e63150ec7403b440a6f57d28a0a": {
+    "question": "Will the price of Ethereum be above $1,600 on March 27?",
+    "yes_pct": 100,
+    "liquidity": 28235.30957,
+    "timestamp": "2026-03-27 07:00 UTC",
+    "category": "ethereum",
+    "query": "Ethereum",
+    "tickers": [
+      "COIN",
+      "MSTR"
+    ],
+    "end_date": "2026-03-27T16:00:00Z"
+  },
+  "0xef0c500b5367c8eba7796cbe37dfd6f094acd76f63e6f8e554c073645b7e81a8": {
+    "question": "Will the price of Ethereum be above $1,700 on March 27?",
+    "yes_pct": 100,
+    "liquidity": 25053.83706,
+    "timestamp": "2026-03-27 07:00 UTC",
+    "category": "ethereum",
+    "query": "Ethereum",
+    "tickers": [
+      "COIN",
+      "MSTR"
+    ],
+    "end_date": "2026-03-27T16:00:00Z"
+  },
+  "0xeaa022a0f2dd7a605e25b7b8d5a6ddfd2a05205308a5d0d76cbcb411d113599e": {
+    "question": "Will the price of Ethereum be above $1,800 on March 27?",
+    "yes_pct": 99.9,
+    "liquidity": 21675.07732,
+    "timestamp": "2026-03-27 07:00 UTC",
+    "category": "ethereum",
+    "query": "Ethereum",
+    "tickers": [
+      "COIN",
+      "MSTR"
+    ],
+    "end_date": "2026-03-27T16:00:00Z"
+  },
+  "0x7ea14553c49051e88fdc912d57584b7fbe23c313e4d6667a697e269698ebf4eb": {
+    "question": "Will the price of Ethereum be above $1,900 on March 27?",
+    "yes_pct": 99,
+    "liquidity": 23353.28539,
+    "timestamp": "2026-03-27 07:00 UTC",
+    "category": "ethereum",
+    "query": "Ethereum",
+    "tickers": [
+      "COIN",
+      "MSTR"
+    ],
+    "end_date": "2026-03-27T16:00:00Z"
+  },
+  "0xab31e6a0c3583ac6c60255569cb25b17f7bc38f1f197953d8a6c2c4787c34272": {
+    "question": "Will the price of Ethereum be above $2,000 on March 27?",
+    "yes_pct": 91.1,
+    "liquidity": 22868.42313,
+    "timestamp": "2026-03-27 07:00 UTC",
+    "category": "ethereum",
+    "query": "Ethereum",
+    "tickers": [
+      "COIN",
+      "MSTR"
+    ],
+    "end_date": "2026-03-27T16:00:00Z"
+  },
+  "0x0cc187e7661fca5014bff69d9b520570a22d262bf6bc62a57ebfe40f5ea7ad9b": {
+    "question": "Will the price of Ethereum be above $2,100 on March 27?",
+    "yes_pct": 19,
+    "liquidity": 20628.8812,
+    "timestamp": "2026-03-27 07:00 UTC",
+    "category": "ethereum",
+    "query": "Ethereum",
+    "tickers": [
+      "COIN",
+      "MSTR"
+    ],
+    "end_date": "2026-03-27T16:00:00Z"
+  },
+  "0xf823da5c9c4a82d3020127ffe1497536312d71f837bcc866ab4a1be20e426ea5": {
+    "question": "Will the price of Ethereum be above $2,200 on March 27?",
+    "yes_pct": 1.2,
+    "liquidity": 21312.057,
+    "timestamp": "2026-03-27 07:00 UTC",
+    "category": "ethereum",
+    "query": "Ethereum",
+    "tickers": [
+      "COIN",
+      "MSTR"
+    ],
+    "end_date": "2026-03-27T16:00:00Z"
+  },
+  "0x9a56088d981e66fb307ef806309accaa22eb1cce88f150d0333af5b0a6707193": {
+    "question": "Will the price of Ethereum be above $2,300 on March 27?",
+    "yes_pct": 0.1,
+    "liquidity": 39427.73425,
+    "timestamp": "2026-03-27 07:00 UTC",
+    "category": "ethereum",
+    "query": "Ethereum",
+    "tickers": [
+      "COIN",
+      "MSTR"
+    ],
+    "end_date": "2026-03-27T16:00:00Z"
+  },
+  "0x0fe077ab45bff11c83f7c1a4785d09b88c9148b08ede054e530c8c684bf48b50": {
+    "question": "Will the price of Ethereum be above $2,400 on March 27?",
+    "yes_pct": 0.1,
+    "liquidity": 34948.41488,
+    "timestamp": "2026-03-27 07:00 UTC",
+    "category": "ethereum",
+    "query": "Ethereum",
+    "tickers": [
+      "COIN",
+      "MSTR"
+    ],
+    "end_date": "2026-03-27T16:00:00Z"
+  },
+  "0xfe6176fd310877753fe521165f056de5bce5e7a110bfc00285b1f88bb4c867d3": {
+    "question": "Will the price of Ethereum be above $2,500 on March 27?",
+    "yes_pct": 0.1,
+    "liquidity": 55797.59728,
+    "timestamp": "2026-03-27 07:00 UTC",
+    "category": "ethereum",
+    "query": "Ethereum",
+    "tickers": [
+      "COIN",
+      "MSTR"
+    ],
+    "end_date": "2026-03-27T16:00:00Z"
+  },
+  "0xd2113c79431e90a1d4be491a3e9091950e1a2778a03243d35c1c572be6e064bb": {
+    "question": "Will the price of Ethereum be above $2,600 on March 27?",
+    "yes_pct": 0.1,
+    "liquidity": 88882.9273,
+    "timestamp": "2026-03-27 07:00 UTC",
+    "category": "ethereum",
+    "query": "Ethereum",
+    "tickers": [
+      "COIN",
+      "MSTR"
+    ],
+    "end_date": "2026-03-27T16:00:00Z"
+  },
+  "0x36a34d4a645725ca2f09fd4a7c6961aee5110a2a94079d65325d33b8dda67b99": {
+    "question": "Will USD-denominated stablecoin market share fall below 99% in 2026?",
+    "yes_pct": 30,
+    "liquidity": 3993.8104,
+    "timestamp": "2026-03-27 07:00 UTC",
+    "category": "stablecoin",
+    "query": "stablecoin",
+    "tickers": [
+      "COIN"
+    ],
+    "end_date": "2027-01-01T05:00:00Z"
   }
 }
