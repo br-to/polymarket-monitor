@@ -16,6 +16,10 @@ Polymarket のオッズ変動を定期監視し、急変動を検知するツー
 |---|---|
 | `odds_scanner.js` | Polymarket CLI でマーケットを検索し、前回比で急変動を検知 |
 | `trading_signals.js` | **オッズ変動 → 米国株売買シグナル自動生成** |
+| `moomoo_trader.py` | **moomoo証券API取引実行** |
+| `test_moomoo.py` | moomoo接続テスト |
+| `test_paper_trade.py` | シミュレーション発注テスト |
+| `auto_trade.sh` | 自動取引スクリプト（スキャン → シグナル → 発注） |
 | `setup.js` | 対話的セットアップウィザード |
 | `config.json` | トレーディング設定（閾値・資金管理） |
 | `config.default.json` | デフォルト設定テンプレート |
@@ -26,7 +30,9 @@ Polymarket のオッズ変動を定期監視し、急変動を検知するツー
 
 - [Polymarket CLI](https://github.com/Polymarket/polymarket-cli) がインストール済みであること
 - Node.js 18+
+- Python 3.8+ (moomoo API用)
 - [OpenClaw](https://github.com/openclaw/openclaw)（Discord 通知用、オプション）
+- moomoo証券アカウント + OpenD（取引実行用、オプション）
 
 ## セットアップ
 
@@ -144,12 +150,96 @@ bash scan_and_notify.sh
 - 連敗時: 3 連敗で一時休止
 - 資金管理: 元手を下回ったら停止
 
+## moomoo証券API連携
+
+### 前提条件
+
+- moomoo証券アカウント
+- OpenD（moomoo API サーバー）のインストール
+
+### OpenDセットアップ
+
+1. **OpenDダウンロード**
+   - [moomoo公式サイト](https://www.moomoo.com/download/OpenAPI)からダウンロード
+   - Linux版を選択（Ubuntu/CentOS）
+
+2. **解凍とインストール**
+   ```bash
+   tar -xzf moomoo_OpenD_*.tar.gz
+   cd moomoo_OpenD_*/
+   ```
+
+3. **OpenD.xml編集**
+   ```xml
+   <login_account>あなたのアカウントID</login_account>
+   <login_pwd>あなたのパスワード</login_pwd>
+   <api_port>11111</api_port>
+   ```
+
+4. **OpenD起動**
+   ```bash
+   ./OpenD &
+   ```
+
+5. **ポート確認**
+   ```bash
+   netstat -an | grep 11111
+   # 127.0.0.1:11111 が表示されればOK
+   ```
+
+### Python環境セットアップ
+
+```bash
+cd polymarket-monitor
+python3 -m venv moomoo-venv
+source moomoo-venv/bin/activate
+pip install futu-api
+```
+
+### 接続テスト
+
+```bash
+source moomoo-venv/bin/activate
+python3 test_moomoo.py
+```
+
+成功すると以下が表示されます：
+```
+✅ Quote API接続成功
+✅ Trade API接続成功
+✅ シミュレーション口座確認
+```
+
+### 取引実行
+
+```bash
+# トレーディングシグナルがある場合
+source moomoo-venv/bin/activate
+python3 moomoo_trader.py
+```
+
+実行時の選択肢：
+- `yes` - 実際に発注（シミュレーション環境）
+- `dry` - ドライラン（発注しない）
+- `no` - スキップ
+
+### 注意事項
+
+- デフォルトは**シミュレーション環境**（Paper Trading）
+- 本番環境への切り替えは `TrdEnv.REAL` に変更
+- 相場権限がなくても成行注文は実行可能
+- 概算価格$50で株数を計算（実際の約定価格は異なる）
+
 ## ファイル構成
 
 ```
 polymarket-monitor/
 ├── odds_scanner.js          # オッズスキャン（v2）
 ├── trading_signals.js       # トレーディングシグナル生成
+├── moomoo_trader.py         # moomoo証券API取引実行
+├── test_moomoo.py           # moomoo接続テスト
+├── test_paper_trade.py      # シミュレーション発注テスト
+├── auto_trade.sh            # 自動取引スクリプト
 ├── scan_and_notify.sh       # エントリーポイント
 ├── config.json              # 設定（gitignore）
 ├── config.default.json      # デフォルト設定
