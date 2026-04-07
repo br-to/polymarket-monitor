@@ -27,7 +27,6 @@ Polymarket のオッズ変動を定期監視し、急変動を検知するツー
 - [Polymarket CLI](https://github.com/Polymarket/polymarket-cli) がインストール済みであること
 - Node.js 18+
 - [OpenClaw](https://github.com/openclaw/openclaw)（Discord 通知用、オプション）
-- moomoo証券 API（自動発注用、今後実装予定）
 
 ## セットアップ
 
@@ -159,13 +158,6 @@ polymarket-monitor/
 ├── trading_signals.json     # 最新シグナル（gitignore）
 └── correlation_tracker.js   # 関連資産価格記録
 ```
-
-## 今後の実装予定
-
-- [ ] moomoo証券 API 連携（自動発注）
-- [ ] バックテスト機能
-- [ ] ポジション管理 UI
-- [ ] 利益/損失レポート
 
 ## ライセンス
 
