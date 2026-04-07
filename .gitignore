@@ -4,3 +4,14 @@ data/signals/
 data/results/
 venv/
 .env
+
+# Polymarket monitor - trading system
+config.json
+positions.json
+odds_history.json
+correlation_log.json
+latest_alerts.json
+trading_signals.json
+*.log
+data/backtest/*.csv
+data/cooldown_state.json
