@@ -23,8 +23,8 @@ if echo "$OUTPUT" | grep -q "アラートを検知"; then
   echo "auto_trader: done"
 
   # 通知（デフォルト: #予測市場）
-  NOTIFY_CHANNEL="${NOTIFY_CHANNEL:-1476585311164305408}"
-  NOTIFY_ACCOUNT="${NOTIFY_ACCOUNT:-blues}"
+  NOTIFY_CHANNEL="${NOTIFY_CHANNEL:-your_channel_id}"
+  NOTIFY_ACCOUNT="${NOTIFY_ACCOUNT:-your_account}"
   
   FULL_MESSAGE="$ALERT_MSG"
   

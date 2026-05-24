@@ -20,7 +20,7 @@ const CONFIG_FILE = path.join(DATA_DIR, "config.json");
 const DEFAULT_CONFIG = path.join(DATA_DIR, "config.default.json");
 const HISTORY_FILE = path.join(DATA_DIR, "odds_history.json");
 const ALERT_FILE = path.join(DATA_DIR, "latest_alerts.json");
-const CLI_PATH = process.env.POLYMARKET_CLI_PATH || "/usr/local/bin/polymarket";
+const CLI_PATH = process.env.POLYMARKET_CLI_PATH || "polymarket";
 
 // 設定読み込み
 function loadConfig() {
