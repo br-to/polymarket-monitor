@@ -128,6 +128,17 @@ function scanMarkets() {
         continue;
       if (liq < MIN_LIQUIDITY) continue;
 
+      // 30日以上先の市場は除外
+      const endDate = m.endDate || "";
+      if (endDate) {
+        try {
+          const daysUntilEnd = (new Date(endDate) - new Date()) / (1000 * 60 * 60 * 24);
+          if (daysUntilEnd > 30) {
+            continue;
+          }
+        } catch {}
+      }
+
       let yesPct;
       try {
         const prices =
@@ -146,7 +157,8 @@ function scanMarkets() {
         timestamp: now,
         category: category.id,
         query,
-        tickers: category.tickers || [],
+        up: category.up || category.tickers || [],
+        down: category.down || category.tickers || [],
         end_date: m.endDate || "",
       };
 
@@ -165,7 +177,8 @@ function scanMarkets() {
             liquidity: liq,
             category: category.label,
             query,
-            tickers: category.tickers || [],
+            up: category.up || category.tickers || [],
+            down: category.down || category.tickers || [],
           });
         }
       }
@@ -194,16 +207,15 @@ function formatAlerts(alerts) {
       `  ${a.prev.toFixed(1)}% \u2192 ${a.current.toFixed(1)}% (${a.delta > 0 ? "+" : ""}${a.delta.toFixed(1)}%)`
     );
     lines.push(`  \u6D41\u52D5\u6027: $${a.liquidity.toLocaleString()} | \u30AB\u30C6\u30B4\u30EA: ${a.category}`);
-    if (a.tickers.length) {
-      lines.push(`  \u{1F4CA} \u95A2\u9023\u9298\u67C4: ${a.tickers.join(", ")}`);
+    
+    // 方向に応じて銘柄を表示
+    if (a.delta > 0 && a.up && a.up.length) {
+      lines.push(`  \u{1F4CA} \u4e0a\u6607\u2192${a.up.join(", ")}`);
+    } else if (a.delta < 0 && a.down && a.down.length) {
+      lines.push(`  \u{1F4CA} \u4e0b\u843d\u2192${a.down.join(", ")}`);
     }
     lines.push("");
   }
-
-  lines.push(
-    "\u4E0A\u8A18\u306E\u5909\u52D5\u306B\u3064\u3044\u3066\u3001\u6700\u65B0\u30CB\u30E5\u30FC\u30B9\u3092\u691C\u7D22\u3057\u3066\u7406\u7531\u3092\u5206\u6790\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
-  );
-  lines.push("\u95A2\u9023\u3059\u308B\u682A/\u30AF\u30EA\u30D7\u30C8\u9298\u67C4\u304C\u3042\u308C\u3070\u4F75\u305B\u3066\u63D0\u793A\u3057\u3066\u304F\u3060\u3055\u3044\u3002");
 
   return lines.join("\n");
 }
@@ -222,6 +234,17 @@ if (alerts.length) {
   console.log(msg);
   fs.writeFileSync(ALERT_FILE, JSON.stringify(alerts, null, 2));
   console.log(`\n${alerts.length}\u4EF6\u306E\u30A2\u30E9\u30FC\u30C8\u3092\u691C\u77E5`);
+  
+  // Discord通知送信
+  try {
+    execSync(
+      `/home/toikobara_komlock_lab_com/.npm-global/bin/openclaw message send --channel discord --account blues --target 1476585311164305408 --message "${msg.replace(/"/g, '\\"')}"`,
+      { timeout: 30000, encoding: 'utf-8' }
+    );
+    console.log("Discord通知送信成功");
+  } catch (err) {
+    console.error("Discord通知送信失敗:", err.message);
+  }
 } else {
   console.log("\u5909\u52D5\u306A\u3057");
 }

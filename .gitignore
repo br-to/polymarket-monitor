@@ -15,3 +15,5 @@ trading_signals.json
 *.log
 data/backtest/*.csv
 data/cooldown_state.json
+moomoo-venv/
+.env

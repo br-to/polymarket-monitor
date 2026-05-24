@@ -36,6 +36,22 @@ MARKET_TICKER_MAP = {
         "tickers": ["US.COIN", "US.MSTR"],
         "keywords": ["bitcoin", "crypto", "btc", "ethereum"],
     },
+    "taiwan_risk": {
+        "tickers": ["US.NVDA", "US.TSM", "US.SOXX"],
+        "keywords": ["taiwan", "invasion", "pla", "strait", "xi jinping", "tsmc"],
+    },
+    "ukraine_russia": {
+        "tickers": ["US.BP", "US.SHEL", "US.WEAT"],
+        "keywords": ["ukraine ceasefire", "ukraine peace", "zelenskyy", "russia ukraine", "nato ukraine"],
+    },
+    "north_korea": {
+        "tickers": ["US.EWY"],
+        "keywords": ["north korea", "kim jong", "missile", "dprk", "pyongyang"],
+    },
+    "middle_east": {
+        "tickers": ["US.XLE", "US.USO", "US.LMT", "US.RTX", "US.NOC"],
+        "keywords": ["middle east", "israel", "gaza", "hezbollah", "hamas", "houthi", "red sea"],
+    },
 }
 
 # 安全装置の設定

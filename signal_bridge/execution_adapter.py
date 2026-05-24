@@ -3,7 +3,7 @@ Execution Adapter
 order_intentをmoomoo OpenAPIでペーパートレード発注する
 """
 
-from moomoo import *
+from futu import *
 
 
 class MoomooExecutor:
